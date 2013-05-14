@@ -1,0 +1,5 @@
+Remarque de développement àclarifier avec  Jean Paul
+
+A l'initialisation de l'agent, son rôle est mis à NOTHING et j'ai mis son numéro de groupe à NO_GROUP que je prends  égal à -1. 
+Sachant que  je n'enverrai une présentation que lorsque le rôle de l'agent sera passé à SIMPLE après découverte de ses 
+voisins  
