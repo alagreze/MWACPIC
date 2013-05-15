@@ -7,12 +7,13 @@
 //************** constantes diverses 
 #define BYTE_BUFFER_SIZE 200
 //************ definition de types liés au lien série
-struct { unsigned char *ptRead;
+typedef struct { unsigned char *ptRead;
 		 unsigned char *ptWrite;
 		 unsigned int nbByte;
 		 unsigned int bufSize;
 		 unsigned int overFlowCnt;
-		 unsigned char buffer[BYTE_BUFFER_SIZE];}
+		 unsigned char buffer[10];
+	    }
          byteFIFO_T;
 		 
 #ifdef _DEF_SERIAL_
@@ -27,8 +28,8 @@ PUBLIC_SER void sendCharSerialPort(char c);
 PUBLIC_SER void sendShortIntSerialPort(unsigned short int val);
 PUBLIC_SER void sendFrameHeaderSerialPort(void);
 PUBLIC_SER char calculeBAudRateGenerateur( float freqQuartz, float debitDesire, unsigned char *brgh, unsigned char *spbrg);
-PUBLIC  unsigned *advancePointer(unsigned char *pt,byteFIFO_T *fifo);
-		 
+PUBLIC_SER void pushCharIntoFifo(unsigned char carToPush,byteFIFO_T *ptFifo);
+PUBLIC_SER void FIFOinit(byteFIFO_T *ptFifo,unsigned int bufSize);		 
 // **************variables globales ***************************
-PUBLIC byteFIFO_T gl_byteFifo;
+PUBLIC_SER  byteFIFO_T gl_byteFifo;
 #endif 

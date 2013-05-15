@@ -86,17 +86,35 @@ char calculeBAudRateGenerateur( float freqQuartz, float debitDesire, unsigned ch
 }
 
 /***********************************************************************
- avance du pointeur de lecture ou d'ecriture  et
- simulation de la structure circulaire d'une FIFO
- en entrée: ptCar est le pointeur à avancer
-            ptFifo pointe sur la FIFO concernée par l'avance du pointeur
- en sortie: nouvelle valeur du pointeur apres avance d'un cran
+put character into a FIFO 
+in case of overflow, the character is not push into the FIFO and 
+the overflow is counted 
  ***********************************************************************/
-unsigned char *advancePointeur(unsigned char *ptCar,byteFIFO_T *ptFifo)
+void pushCharIntoFifo(unsigned char carToPush,byteFIFO_T *ptFifo)
 {
-    ptCar++;
-	if (ptCar==(ptFifo->buffer+ptFifo->bufSize))
-		ptCar=ptFifo->buffer;
-	return ptCar;
-
+    if (ptFifo->nbByte == ptFifo->bufSize)
+	{ // overflow
+	  ptFifo->overFlowCnt++;
+	}
+	else
+	{
+	 //no  overflow
+	*ptFifo->ptWrite=carToPush;
+     ptFifo->nbByte++;
+	 ptFifo->ptWrite++;
+	 if (ptFifo->ptWrite==(ptFifo->buffer+ptFifo->bufSize))
+		ptFifo->ptWrite=ptFifo->buffer;  // circular structure
+    }     
 }
+//*************************
+//  FIFO initialization
+//*************************
+void FIFOinit(byteFIFO_T *ptFifo,unsigned int bufSize)
+{
+  ptFifo->nbByte=0;
+  ptFifo->overFlowCnt=0;
+  ptFifo->bufSize=bufSize;
+  ptFifo->ptWrite=ptFifo->buffer;
+  ptFifo->ptRead=ptFifo->buffer;
+}
+

@@ -3,3 +3,7 @@ Remarque de développement àclarifier avec  Jean Paul
 A l'initialisation de l'agent, son rôle est mis à NOTHING et j'ai mis son numéro de groupe à NO_GROUP que je prends  égal à -1. 
 Sachant que  je n'enverrai une présentation que lorsque le rôle de l'agent sera passé à SIMPLE après découverte de ses 
 voisins  
+
+On se sert d'une FIFO de caractères entre le serveur d'interruption de réception du lien série. On simplifie les tarmes reçues et on ne met dans la FIFO que l'adresse au niveau applicatif  de
+l'émetteur, le type de message, la taille des données qui suivent. On ne transmet pas dans la FIFO le header au niveau datalink pour simplifier.  
+Attention : pour simplifier les adresses seront mis dans la FIFO en LITTLE ENDIAN

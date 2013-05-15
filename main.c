@@ -8,6 +8,7 @@
 #define _DEF_THIS_AGENT_ 
 #include "thisAgent.h"
 #include "MWACProtocol.h"
+#include "serial.h"
 
 // ********* prototype des fonctions *******
 void init (void);

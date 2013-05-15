@@ -23,14 +23,19 @@ void init (void)
 	{ afficheLCD(1, 2,messErr1 );
       while (1); /* boucle sur l'erreur */
     }
-    /*** mise en place contexte interruption ************/
+	FIFOinit(&gl_byteFifo,BYTE_BUFFER_SIZE);
+   
     INTCON = 0x00;                //disable all interrupts
 	// configure USART
 	OpenUSART( USART_TX_INT_OFF &
-	USART_RX_INT_OFF&  /* interruption reception UART valid?*/
+	USART_RX_INT_ON&  /* interruption reception UART valid?*/
 	USART_ASYNCH_MODE &  
 	USART_EIGHT_BIT &
     USART_CONT_RX & 
 	brgh,spbrg );
+	 /*** mise en place contexte interruption ************/
+    IPR1bits.RCIP=1 ;              //reception USART high priority
+    RCONbits.IPEN = 1;            //enable priority levels
+    INTCONbits.GIEH = 1;          //enable interrupts
 	
 }

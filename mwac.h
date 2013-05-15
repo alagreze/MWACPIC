@@ -22,6 +22,9 @@
 #define HEADER2 0x55
 #define MAX_SIZE_MESSAGE 30  // maxi size of message embedded in application PDU
 #define APPLI_HEADER_SIZE 9  // size of header of Application Layer 
+#define DATA_LINK_ADDRESS_SIZE 4 // in bytes 
+#define APPLICATION_ADDRESS_SIZE 4 // in bytes 
+#define APPLI_PDU_LENGTH_SIZE 2 // size of the application PDU (= PDU de l'applicative level)
 #define MAX_SIZE_NEIGHBOURS_LIST 10 
 #define  NO_GROUP  -1
 //**  messages relative constants  ***************
