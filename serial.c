@@ -86,24 +86,27 @@ char calculeBAudRateGenerateur( float freqQuartz, float debitDesire, unsigned ch
 }
 
 /***********************************************************************
-put character into a FIFO 
-in case of overflow, the character is not push into the FIFO and 
-the overflow is counted 
+get out a  character from a FIFO 
+if no character in the FIFO, the result will be not signifiant 
  ***********************************************************************/
-void pushCharIntoFifo(unsigned char carToPush,byteFIFO_T *ptFifo)
+unsigned char pullCharFromFifo(byteFIFO_T *ptFifo)
 {
-    if (ptFifo->nbByte == ptFifo->bufSize)
-	{ // overflow
-	  ptFifo->overFlowCnt++;
+    char charToPull;
+    if (ptFifo->nbByte == 0)
+	{ // empty FIFO
+	  return 0;
 	}
 	else
 	{
-	 //no  overflow
-	*ptFifo->ptWrite=carToPush;
-     ptFifo->nbByte++;
-	 ptFifo->ptWrite++;
-	 if (ptFifo->ptWrite==(ptFifo->buffer+ptFifo->bufSize))
-		ptFifo->ptWrite=ptFifo->buffer;  // circular structure
+	
+	 charToPull= *ptFifo->ptRead;
+	 INTCONbits.GIEH = 0; // interrupts masked
+     ptFifo->nbByte--;
+	 INTCONbits.GIEH = 1; // interrupts unmasked
+	 ptFifo->ptRead++;
+	 if (ptFifo->ptRead==(ptFifo->buffer+ptFifo->bufSize))
+		ptFifo->ptRead=ptFifo->buffer;  // circular structure
+	 return charToPull;
     }     
 }
 //*************************

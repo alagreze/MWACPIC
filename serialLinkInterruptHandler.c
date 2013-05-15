@@ -3,7 +3,6 @@
 #include "serial.h"
 #include "thisAgent.h"
 
-
 void serveurUART (void);
 
 //----------------------------------------------------------------------------
