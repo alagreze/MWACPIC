@@ -7,8 +7,11 @@
 #include "thisAgent.h"
 #include "appli.h"
 #include "LCDTools.h"
-
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
 static char messErr1[]="erreur baudrate";
+char blancs[]="                ";
 void init (void)
 {
 	unsigned char brgh,spbrg;
@@ -36,5 +39,13 @@ void init (void)
     IPR1bits.RCIP=1 ;              //reception USART high priority
     RCONbits.IPEN = 1;            //enable priority levels
     INTCONbits.GIEH = 1;          //enable interrupts
+	// ****  init LCD display
+	strcpy(gl_blancs,blancs);
+	sprintf (gl_ligne1,"Ag#%ld N %ld",gl_me.myId,gl_me.myGroup);
+	#ifdef LCD_DISPLAY
+	initLCD();
+	clearLCD();
+	#endif
+	
 	
 }

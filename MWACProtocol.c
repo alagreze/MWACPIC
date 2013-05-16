@@ -7,6 +7,10 @@
 #define _DEF_MWACPROTO_
 #include "MWACProtocol.h"
 #include "appli.h"
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "LCDTools.h"
 
 void sendIntroductionMessage(void)
 {
@@ -88,11 +92,23 @@ void frameProceed(void)
 			for (i=0;i<nbGroup;i++)
 				{ groupAd=0;
 				  for (j=0;j<APPLICATION_ADDRESS_SIZE;j++)
-				     groupAd=groupAd+(((unsigned long int)pullCharFromFifo(&gl_byteFifo))<<(j*8));
+				     groupAd=(groupAd<<8)+((unsigned long int)pullCharFromFifo(&gl_byteFifo));
 				  if(i < MAX_NB_GROUPS)
 					// we record until MAX_NB_GROUPS groups per neighbour
 					gl_me.myNeighbours[posNeighb].agentGroupId[i]=groupAd;
 				}
+			// if the neibghbour is  a representative agent, this agent becomes simple member and  his group is up_dated			
+		if (gl_me.myNeighbours[posNeighb].agentRole==REPRESENTATIVE)
+		{
+			gl_me.myRole=SIMPLE_MEMBER;	
+			gl_me.myGroup=gl_me.myNeighbours[posNeighb].agentGroupId[0]; // this agent gets the group of the representative agent 
+			sprintf (gl_ligne1,"Ag#%ld S %ld",gl_me.myId,gl_me.myGroup);
+			#ifdef LCD_DISPLAY 
+			afficheLCD(1,1,gl_blancs);
+			afficheLCD(1,1,ligne1);
+			#endif
+				
+			
 		}
 		else
 		{  // no place in neighbours list  we must pull the end of frame from the FIFO
@@ -100,6 +116,7 @@ void frameProceed(void)
 				pullCharFromFifo(&gl_byteFifo);
 	  
         }
+}
 }
 }
 }

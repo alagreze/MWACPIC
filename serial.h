@@ -5,7 +5,7 @@
 #include "mwac.h"
 
 // ************** constantes diverses 
-#define BYTE_BUFFER_SIZE 150
+#define BYTE_BUFFER_SIZE 200
 // ************ definition de types liés au lien serie
 
 typedef struct 

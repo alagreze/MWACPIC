@@ -9,6 +9,8 @@
 #include "thisAgent.h"
 #include "MWACProtocol.h"
 #include "serial.h"
+#define _DEF_APPLI_
+#include "appli.h"
 me_T gl_me;
 
 // ********* prototype des fonctions *******
