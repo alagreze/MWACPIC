@@ -9,6 +9,7 @@
 #include "thisAgent.h"
 #include "MWACProtocol.h"
 #include "serial.h"
+me_T gl_me;
 
 // ********* prototype des fonctions *******
 void init (void);
@@ -23,21 +24,5 @@ void main(void)
   {
     frameProceed();  //  polling the FIFO and proceeds one frame if there is. If no, give the hand back 
   }
-}
-//**  read one frame from the byte FIFO et proceed it
-void frameProceed(void)
-{
-    int i;
-	unsigned long int appSenderAddr=0;
-	unsigned char appPDUType;
-	if (gl_byteFifo.nbByte != 0)
-	{ // there is a frame in he FIFO
-	  // get sender applicative layer address from the FIFO
-	  for(i=0;i<APPLICATION_ADDRESS_SIZE;i++)
-		appSenderAddr=appSenderAddr+(((unsigned long int)pullCharFromFifo(&gl_byteFifo))<<(i*8));
-	  // get type of applicative message
-	  appPDUType=pullCharFromFifo(&gl_byteFifo);
-	  //get the size of PDU data (message without applicative header 
-      
 }
   

@@ -23,8 +23,7 @@ void init (void)
 	{ afficheLCD(1, 2,messErr1 );
       while (1); /* boucle sur l'erreur */
     }
-	FIFOinit(&gl_byteFifo,BYTE_BUFFER_SIZE);
-   
+	FIFOinit(&gl_byteFifo,50);
     INTCON = 0x00;                //disable all interrupts
 	// configure USART
 	OpenUSART( USART_TX_INT_OFF &

@@ -5,5 +5,5 @@ Sachant que  je n'enverrai une présentation que lorsque le rôle de l'agent sera 
 voisins  
 
 On se sert d'une FIFO de caractères entre le serveur d'interruption de réception du lien série. On simplifie les tarmes reçues et on ne met dans la FIFO que l'adresse au niveau applicatif  de
-l'émetteur, le type de message, la taille des données qui suivent. On ne transmet pas dans la FIFO le header au niveau datalink pour simplifier.  
+l'émetteur, le type de message (1 octet), la taille des données qui suivent(taille du message) sur 1 octet . On ne transmet pas dans la FIFO le header au niveau datalink pour simplifier.  
 Attention : pour simplifier les adresses seront mis dans la FIFO en LITTLE ENDIAN

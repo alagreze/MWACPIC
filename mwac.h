@@ -31,6 +31,10 @@
 #define INTRODUCTION_PDU_MESSAGE_SIZE  0 
 #define WHO_ARE_MY_NEIGHBOURS_PDU_MESSAGE_SIZE_WITHOUTGROUP 1  
 #define WHO_ARE_MY_NEIGHBOURS_PDU_MESSAGE_SIZE_WITH_ONE_GROUP 5
+//**  MWAC limitations to simplify  ***************
+#define MAX_NB_GROUPS 3  // max number of recorded group for a neighbour in the neighbours list 
+#define MAX_NB_NEIGHBOURS_IN_LIST 5 
+
 
 //******** definition des type ************
 typedef struct { unsigned short int appliPDUlength; // not transmitted in appliPDU but in frameLength fiel of data link frame 
@@ -50,14 +54,15 @@ typedef struct { unsigned long int senderId;  // 4 bytes
 
 typedef struct { unsigned long int agentId;
 				 unsigned char agentRole;
-				 unsigned long int agentGroupId;
+				 unsigned char nbGroup;  // number of groups to which the neighbour belongs 
+				 unsigned long int agentGroupId[MAX_NB_GROUPS];
 				}neighBour_T;                
 
 typedef struct { unsigned long int myId;
 				 unsigned char myRole;
 				 unsigned long int myGroup;
-				 unsigned long nbNeighbours;
-				 neighBour_T myNeighbours[MAX_SIZE_NEIGHBOURS_LIST];
+				 unsigned short int nbNeighbours;
+				 neighBour_T myNeighbours[MAX_NB_NEIGHBOURS_IN_LIST];
 				} me_T;              
 
 #endif 
