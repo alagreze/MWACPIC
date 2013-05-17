@@ -105,7 +105,7 @@ void frameProceed(void)
 			sprintf (gl_ligne1,"Ag#%ld S %ld",gl_me.myId,gl_me.myGroup);
 			#ifdef LCD_DISPLAY 
 			afficheLCD(1,1,gl_blancs);
-			afficheLCD(1,1,ligne1);
+			afficheLCD(1,1,gl_ligne1);
 			#endif
 				
 			

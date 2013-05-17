@@ -45,6 +45,7 @@ void init (void)
 	#ifdef LCD_DISPLAY
 	initLCD();
 	clearLCD();
+	afficheLCD(1,1,gl_ligne1);
 	#endif
 	
 	

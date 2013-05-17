@@ -2,7 +2,7 @@
 #ifndef __APPLI__
 #define __APPLI__
 
-//#define  LCD_DISPLAY  // to uncomment when we use LCD Display
+#define  LCD_DISPLAY  // to uncomment when we use LCD Display
 #define FAIL 0
 #define SUCCESS 1
 #define TRUE 1
