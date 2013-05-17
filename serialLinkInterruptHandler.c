@@ -117,7 +117,10 @@ void serveurUART()
 				if (s_charCnt >0)
 				    s_state=7; // this frame must be continued
 				else
+				{
 					 s_state=0;  // this frame is over 
+					 gl_byteFifo.framesCnt++;  // one frame more
+			    }
 			}
 			else
 				s_state=0; // no interest for this frame
@@ -126,10 +129,12 @@ void serveurUART()
 			pushCharIntoFifo(recChar,&gl_byteFifo);
 			s_charCnt--;
 			if (s_charCnt==0)
+            {
 					s_state=0; // frame is complete
+					gl_byteFifo.framesCnt++;  // one frame more
+			}
 			break;
 				
-  }
 
-}
-}
+	}
+}}

@@ -14,6 +14,7 @@ typedef struct
 		 unsigned int nbByte;
 		 unsigned int bufSize;
 		 unsigned int overFlowCnt;
+		 unsigned int framesCnt;
 		 unsigned char buffer[BYTE_BUFFER_SIZE];
 	    }byteFIFO_T;
 		 

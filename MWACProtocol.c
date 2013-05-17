@@ -56,7 +56,7 @@ void frameProceed(void)
 	unsigned char appPDUType;
 	unsigned char appPDUMessageSize=0;  // size of the message in applicative PDU 
 	char neighbFound=0,posNeighb=0,nbGroup;
-	if (gl_byteFifo.nbByte != 0)
+	if (gl_byteFifo.framesCnt != 0)
 	{ // there is a frame in he FIFO
 	  // get sender applicative layer address from the FIFO
 	  for(i=0;i<APPLICATION_ADDRESS_SIZE;i++)
@@ -116,6 +116,9 @@ void frameProceed(void)
 				pullCharFromFifo(&gl_byteFifo);
 	  
         }
+		INTCONbits.GIEH = 0; // interrupts masked
+        gl_byteFifo.framesCnt--;  // one frame less
+	    INTCONbits.GIEH = 1; // interrupts unmasked
 }
 }
 }

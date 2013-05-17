@@ -137,6 +137,7 @@ void FIFOinit(byteFIFO_T *ptFifo,unsigned int bufSize)
 {
   ptFifo->nbByte=0;
   ptFifo->overFlowCnt=0;
+  ptFifo->framesCnt=0;
   ptFifo->bufSize=bufSize;
   ptFifo->ptWrite=ptFifo->buffer;
   ptFifo->ptRead=ptFifo->buffer;

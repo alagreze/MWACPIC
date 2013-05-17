@@ -1,5 +1,5 @@
 MPLINK 4.38, Linker
-Linker Map File - Created Fri May 17 09:04:58 2013
+Linker Map File - Created Fri May 17 12:25:09 2013
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -9,91 +9,91 @@ Linker Map File - Created Fri May 17 09:04:58 2013
       InterruptVectorHigh       code   0x000008    program   0x000006
                    .cinit    romdata   0x00000e    program   0x00001a
          .code_vfprintf.o       code   0x000028    program   0x000c22
-           .code_serial.o       code   0x000c4a    program   0x000862
-     .code_MWACProtocol.o       code   0x0014ac    program   0x0006f0
-                     PROG       code   0x001b9c    program   0x00051e
-.code_serialLinkInterruptHandler.o       code   0x0020ba    program   0x0003d8
-         .code_lcdTools.o       code   0x002492    program   0x000372
-             .code_init.o       code   0x002804    program   0x000156
-          .code_sprintf.o       code   0x00295a    program   0x0000ac
-                   STRING       code   0x002a06    program   0x0000a8
-               _cinit_scn       code   0x002aae    program   0x00009e
-             .code_putc.o       code   0x002b4c    program   0x000084
-            .code_uopen.o       code   0x002bd0    program   0x00007a
-          .code_fxm3232.o       code   0x002c4a    program   0x000070
-         .code_fxd3232u.o       code   0x002cba    program   0x000048
-                    CTYPE       code   0x002d02    program   0x000024
-                    .code       code   0x002d26    program   0x000020
-             _startup_scn       code   0x002d46    program   0x00001c
-                    STDIO       code   0x002d62    program   0x00001c
-             .stringtable    romdata   0x002d7e    program   0x00001a
-             .code_main.o       code   0x002d98    program   0x000014
-      .romdata_vfprintf.o    romdata   0x002dac    program   0x000011
-       .romdata_sprintf.o    romdata   0x002dbd    program   0x000000
-       .idata_sprintf.o_i    romdata   0x002dbd    program   0x000000
-    .romdata__user_putc.o    romdata   0x002dbd    program   0x000000
-      .idata_vfprintf.o_i    romdata   0x002dbd    program   0x000000
-      .romdata_fxd3232u.o    romdata   0x002dbd    program   0x000000
-       .romdata_fxm3232.o    romdata   0x002dbd    program   0x000000
-          .romdata_putc.o    romdata   0x002dbd    program   0x000000
-          .romdata_init.o    romdata   0x002dbd    program   0x000000
-.idata_serialLinkInterruptHandler.o_i    romdata   0x002dbd    program   0x000001
-.romdata_serialLinkInterruptHandler.o    romdata   0x002dbd    program   0x000000
-      .romdata_lcdTools.o    romdata   0x002dbd    program   0x000000
-          .romdata_main.o    romdata   0x002dbd    program   0x000000
-         .romdata_c018i.o    romdata   0x002dbd    program   0x000000
-  .romdata_MWACProtocol.o    romdata   0x002dbd    program   0x000000
-        .romdata_serial.o    romdata   0x002dbd    program   0x000000
-         .idata_uopen.o_i    romdata   0x002dbd    program   0x000000
-         .romdata_uopen.o    romdata   0x002dbd    program   0x000000
-        .romdata___init.o    romdata   0x002dbd    program   0x000000
-           .code___init.o       code   0x002dbe    program   0x000002
-        .idata_serial.o_i    romdata   0x002dc0    program   0x000000
-          .idata_main.o_i    romdata   0x002dc0    program   0x000000
-          .idata_init.o_i    romdata   0x002dc0    program   0x000021
-      .idata_lcdTools.o_i    romdata   0x002dc0    program   0x000000
-          .idata_putc.o_i    romdata   0x002dc0    program   0x000000
-    .idata__user_putc.o_i    romdata   0x002de1    program   0x000000
-         .idata_c018i.o_i    romdata   0x002de1    program   0x000000
-       .idata_fxm3232.o_i    romdata   0x002de1    program   0x000000
-      .idata_fxd3232u.o_i    romdata   0x002de1    program   0x000000
-  .idata_MWACProtocol.o_i    romdata   0x002de1    program   0x000000
-        .idata___init.o_i    romdata   0x002de1    program   0x000000
-            .code_c018i.o       code   0x002de2    program   0x000000
+           .code_serial.o       code   0x000c4a    program   0x000876
+     .code_MWACProtocol.o       code   0x0014c0    program   0x0006fc
+                     PROG       code   0x001bbc    program   0x00051e
+.code_serialLinkInterruptHandler.o       code   0x0020da    program   0x0003e8
+         .code_lcdTools.o       code   0x0024c2    program   0x000372
+             .code_init.o       code   0x002834    program   0x000156
+          .code_sprintf.o       code   0x00298a    program   0x0000ac
+                   STRING       code   0x002a36    program   0x0000a8
+               _cinit_scn       code   0x002ade    program   0x00009e
+             .code_putc.o       code   0x002b7c    program   0x000084
+            .code_uopen.o       code   0x002c00    program   0x00007a
+          .code_fxm3232.o       code   0x002c7a    program   0x000070
+         .code_fxd3232u.o       code   0x002cea    program   0x000048
+                    CTYPE       code   0x002d32    program   0x000024
+                    .code       code   0x002d56    program   0x000020
+             _startup_scn       code   0x002d76    program   0x00001c
+                    STDIO       code   0x002d92    program   0x00001c
+             .stringtable    romdata   0x002dae    program   0x00001a
+             .code_main.o       code   0x002dc8    program   0x000014
+      .romdata_vfprintf.o    romdata   0x002ddc    program   0x000011
+       .romdata_sprintf.o    romdata   0x002ded    program   0x000000
+       .idata_sprintf.o_i    romdata   0x002ded    program   0x000000
+    .romdata__user_putc.o    romdata   0x002ded    program   0x000000
+      .idata_vfprintf.o_i    romdata   0x002ded    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x002ded    program   0x000000
+       .romdata_fxm3232.o    romdata   0x002ded    program   0x000000
+          .romdata_putc.o    romdata   0x002ded    program   0x000000
+          .romdata_init.o    romdata   0x002ded    program   0x000000
+.idata_serialLinkInterruptHandler.o_i    romdata   0x002ded    program   0x000001
+.romdata_serialLinkInterruptHandler.o    romdata   0x002ded    program   0x000000
+      .romdata_lcdTools.o    romdata   0x002ded    program   0x000000
+          .romdata_main.o    romdata   0x002ded    program   0x000000
+         .romdata_c018i.o    romdata   0x002ded    program   0x000000
+  .romdata_MWACProtocol.o    romdata   0x002ded    program   0x000000
+        .romdata_serial.o    romdata   0x002ded    program   0x000000
+         .idata_uopen.o_i    romdata   0x002ded    program   0x000000
+         .romdata_uopen.o    romdata   0x002ded    program   0x000000
+        .romdata___init.o    romdata   0x002ded    program   0x000000
+           .code___init.o       code   0x002dee    program   0x000002
+        .idata_serial.o_i    romdata   0x002df0    program   0x000000
+          .idata_main.o_i    romdata   0x002df0    program   0x000000
+          .idata_init.o_i    romdata   0x002df0    program   0x000021
+      .idata_lcdTools.o_i    romdata   0x002df0    program   0x000000
+          .idata_putc.o_i    romdata   0x002df0    program   0x000000
+    .idata__user_putc.o_i    romdata   0x002e11    program   0x000000
+         .idata_c018i.o_i    romdata   0x002e11    program   0x000000
+       .idata_fxm3232.o_i    romdata   0x002e11    program   0x000000
+      .idata_fxd3232u.o_i    romdata   0x002e11    program   0x000000
+  .idata_MWACProtocol.o_i    romdata   0x002e11    program   0x000000
+        .idata___init.o_i    romdata   0x002e11    program   0x000000
+            .code_c018i.o       code   0x002e12    program   0x000000
                 MATH_DATA      udata   0x000000       data   0x000014
                  .tmpdata      udata   0x000014       data   0x00000c
           serveurUART_tmp      udata   0x000020       data   0x000008
             .udata_main.o      udata   0x000060       data   0x00009e
-.idata_serialLinkInterruptHandler.o      idata   0x0000fe       data   0x000001
-            .udata_putc.o      udata   0x0000ff       data   0x000000
-         .idata_fxm3232.o      idata   0x0000ff       data   0x000000
-         .udata_fxm3232.o      udata   0x0000ff       data   0x000000
-        .idata_fxd3232u.o      idata   0x0000ff       data   0x000000
-           .udata_uopen.o      udata   0x0000ff       data   0x000000
-           .idata_uopen.o      idata   0x0000ff       data   0x000000
-          .udata___init.o      udata   0x0000ff       data   0x000000
-          .idata___init.o      idata   0x0000ff       data   0x000000
-         .udata_sprintf.o      udata   0x0000ff       data   0x000000
-         .idata_sprintf.o      idata   0x0000ff       data   0x000000
-        .udata_vfprintf.o      udata   0x0000ff       data   0x000000
-        .idata_vfprintf.o      idata   0x0000ff       data   0x000000
-        .udata_fxd3232u.o      udata   0x0000ff       data   0x000000
-            .idata_putc.o      idata   0x0000ff       data   0x000000
-      .udata__user_putc.o      udata   0x0000ff       data   0x000000
-          .idata_serial.o      idata   0x0000ff       data   0x000000
-      .idata__user_putc.o      idata   0x0000ff       data   0x000000
-    .idata_MWACProtocol.o      idata   0x0000ff       data   0x000000
-    .udata_MWACProtocol.o      udata   0x0000ff       data   0x000000
-            .idata_main.o      idata   0x0000ff       data   0x000000
-        .idata_lcdTools.o      idata   0x0000ff       data   0x000000
-        .udata_lcdTools.o      udata   0x0000ff       data   0x000000
-            .udata_init.o      udata   0x0000ff       data   0x000000
-           .idata_c018i.o      idata   0x0000ff       data   0x000000
+        .udata_vfprintf.o      udata   0x0000fe       data   0x000000
+         .idata_sprintf.o      idata   0x0000fe       data   0x000000
+         .udata_sprintf.o      udata   0x0000fe       data   0x000000
+          .idata___init.o      idata   0x0000fe       data   0x000000
+          .udata___init.o      udata   0x0000fe       data   0x000000
+        .idata_vfprintf.o      idata   0x0000fe       data   0x000000
+           .idata_uopen.o      idata   0x0000fe       data   0x000000
+           .udata_uopen.o      udata   0x0000fe       data   0x000000
+        .udata_fxd3232u.o      udata   0x0000fe       data   0x000000
+        .idata_fxd3232u.o      idata   0x0000fe       data   0x000000
+         .udata_fxm3232.o      udata   0x0000fe       data   0x000000
+         .idata_fxm3232.o      idata   0x0000fe       data   0x000000
+            .udata_putc.o      udata   0x0000fe       data   0x000000
+            .idata_putc.o      idata   0x0000fe       data   0x000000
+          .idata_serial.o      idata   0x0000fe       data   0x000000
+      .udata__user_putc.o      udata   0x0000fe       data   0x000000
+    .idata_MWACProtocol.o      idata   0x0000fe       data   0x000000
+    .udata_MWACProtocol.o      udata   0x0000fe       data   0x000000
+            .idata_main.o      idata   0x0000fe       data   0x000000
+        .idata_lcdTools.o      idata   0x0000fe       data   0x000000
+        .udata_lcdTools.o      udata   0x0000fe       data   0x000000
+      .idata__user_putc.o      idata   0x0000fe       data   0x000000
+            .udata_init.o      udata   0x0000fe       data   0x000000
+           .idata_c018i.o      idata   0x0000fe       data   0x000000
 .udata_serialLinkInterruptHandler.o      udata   0x000100       data   0x000010
            .udata_c018i.o      udata   0x000110       data   0x00000a
                    .stack      udata   0x000400       data   0x000100
-          .udata_serial.o      udata   0x000500       data   0x0000d2
-            .idata_init.o      idata   0x0005d2       data   0x000021
+          .udata_serial.o      udata   0x000500       data   0x0000d4
+            .idata_init.o      idata   0x0005d4       data   0x000021
+.idata_serialLinkInterruptHandler.o      idata   0x0005f5       data   0x000001
               SFR_BANKED0      udata   0x000f00       data   0x00002f
               SFR_BANKED1      udata   0x000f30       data   0x00000f
               SFR_BANKED2      udata   0x000f40       data   0x00000f
@@ -106,55 +106,55 @@ Linker Map File - Created Fri May 17 09:04:58 2013
                               Program Memory Usage 
                                Start         End      
                            ---------   ---------      
-                            0x000000    0x002de0      
-            11745 out of 33048 program addresses used, program memory utilization is 35%
+                            0x000000    0x002e10      
+            11793 out of 33048 program addresses used, program memory utilization is 35%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                 DelayMUs   0x0025f2    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                  DelayMs   0x002614    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                 DelayMUs   0x002622    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                  DelayMs   0x002644    program     extern G:\GitHub\MWACPIC\lcdTools.c
                  FIFOinit   0x0013ec    program     extern G:\GitHub\MWACPIC\serial.c
-                    FPA32   0x001b9e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                    FPD32   0x001cca    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-                    FPM32   0x001d70    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
-                    FPS32   0x001b9c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                 FXD3232U   0x002cba    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232u.c
-                 FXM1616S   0x001e4a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
-                  FXM3232   0x002c4a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm3232.c
-                  INT3208   0x001ea4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                    FPA32   0x001bbe    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                    FPD32   0x001cea    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+                    FPM32   0x001d90    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
+                    FPS32   0x001bbc    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                 FXD3232U   0x002cea    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232u.c
+                 FXM1616S   0x001e6a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
+                  FXM3232   0x002c7a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm3232.c
+                  INT3208   0x001ec4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
       InterruptVectorHigh   0x000008    program     extern G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
-               LCD_STROBE   0x00264e    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                OpenUSART   0x002bd0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\uopen.c
-                  TAGTB32   0x001ef2    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\gtFP.asm
-               TSIGN1616A   0x001e96    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
-                   _2jEnd   0x002a98    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-              __FpCompare   0x001f04    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                 __FpExit   0x001fba    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-                 __FpPack   0x001fe6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-            __FpReturnNaN   0x001fae    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x001fc0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x001fd8    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x001fc6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x001fe0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x001fbc    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x001fd4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-              __FpReturnW   0x00203e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-              __FpUnPackA   0x00205e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x00208e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+               LCD_STROBE   0x00267e    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                OpenUSART   0x002c00    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\uopen.c
+                  TAGTB32   0x001f12    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\gtFP.asm
+               TSIGN1616A   0x001eb6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
+                   _2jEnd   0x002ac8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+              __FpCompare   0x001f24    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                 __FpExit   0x001fda    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+                 __FpPack   0x002006    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+            __FpReturnNaN   0x001fce    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x001fe0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x001ff8    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x001fe6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x002000    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x001fdc    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x001ff4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+              __FpReturnW   0x00205e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+              __FpUnPackA   0x00207e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x0020ae    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
        ___return_lbl00000   0x00000c    program     static                          
-       ___return_lbl00000   0x002cb8    program     static                          
+       ___return_lbl00000   0x002ce8    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00000   0x002d00    program     static                          
-       ___return_lbl00001   0x002d60    program     static                          
-       ___return_lbl00002   0x002b4a    program     static                          
-       ___return_lbl00010   0x00260c    program     static                          
-       ___return_lbl00018   0x002656    program     static                          
-        ___while_lbl00011   0x0025fa    program     static                          
-        ___while_lbl00012   0x00260c    program     static                          
-                   __init   0x002dbe    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\__init.c
+       ___return_lbl00000   0x002d30    program     static                          
+       ___return_lbl00001   0x002d90    program     static                          
+       ___return_lbl00002   0x002b7a    program     static                          
+       ___return_lbl00010   0x00263c    program     static                          
+       ___return_lbl00018   0x002686    program     static                          
+        ___while_lbl00011   0x00262a    program     static                          
+        ___while_lbl00012   0x00263c    program     static                          
+                   __init   0x002dee    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\__init.c
                    __pa_0   0x000968    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
                    __pa_1   0x000970    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
                   __pa_10   0x000a24    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
@@ -202,124 +202,124 @@ Linker Map File - Created Fri May 17 09:04:58 2013
                    __pa_7   0x0009d6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
                    __pa_8   0x0009e2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
                    __pa_9   0x000a04    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
-               __string_0   0x002d8b    program     static G:\GitHub\MWACPIC\MWACProtocol.c
-               __string_2   0x002d7e    program     static G:\GitHub\MWACPIC\init.c 
+               __string_0   0x002dbb    program     static G:\GitHub\MWACPIC\MWACProtocol.c
+               __string_2   0x002dae    program     static G:\GitHub\MWACPIC\init.c 
               __tmplbl_42   0x000afe    program     static                          
               __tmplbl_43   0x000946    program     static                          
               __tmplbl_44   0x00092c    program     static                          
               __tmplbl_85   0x00007e    program     static                          
-            __zero_memory   0x002d26    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
-                _do_cinit   0x002aae    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+            __zero_memory   0x002d56    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
+                _do_cinit   0x002ade    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
-                   _false   0x002cfc    program     static                          
-                 _startup   0x002d46    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
-              _usart_putc   0x002d62    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
+                   _false   0x002d2c    program     static                          
+                 _startup   0x002d76    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+              _usart_putc   0x002d92    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
                _user_putc   0x000006    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\_user_putc.c
-               afficheLCD   0x002492    program     extern G:\GitHub\MWACPIC\lcdTools.c
+               afficheLCD   0x0024c2    program     extern G:\GitHub\MWACPIC\lcdTools.c
 calculeBAudRateGenerateur   0x000eea    program     extern G:\GitHub\MWACPIC\serial.c
-                 clearLCD   0x00274e    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                compare_l   0x002d3c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
-                copy_loop   0x002b20    program     static                          
-            copy_one_byte   0x002b26    program     static                          
-                     done   0x002b4a    program     static                          
-             done_copying   0x002b34    program     static                          
-             frameProceed   0x001638    program     extern G:\GitHub\MWACPIC\MWACProtocol.c
-                     init   0x002804    program     extern G:\GitHub\MWACPIC\init.c 
-                  initLCD   0x002792    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                  isdigit   0x002d02    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
-                 jANotInf   0x001bc6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                 jANotInf   0x001ce8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-                 jANotInf   0x001d8e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
-                 jANotNeg   0x001c5a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                jANotZero   0x001cfc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-              jAandWsetup   0x001c2a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                  jAisNeg   0x001f80    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                 jAltBexp   0x001c18    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                jBANotInf   0x001bbc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                 jBNotInf   0x001bd4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-              jBothFinite   0x001d9c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
-             jBothNotZero   0x001da8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
-             jBothNotZero   0x001f22    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-            jDifOrPosSign   0x001be8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                      jEQ   0x001f3e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                     jEnd   0x002a62    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
-                     jEnd   0x002a9a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                    jExch   0x001f4a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                    jExit   0x001ef0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                   jExpEQ   0x001f90    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                   jFinal   0x001f74    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-               jFinalSign   0x001cc2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                jHaveZero   0x001da4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
-                    jLoop   0x002a2e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strcpy.asm
-                    jLoop   0x001ed8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                    jLoop   0x001d24    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-                    jLoop   0x002a58    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
-                    jLoop   0x002a82    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                jLoopExit   0x001ee6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                   jMatch   0x002d22    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
-                     jMax   0x001eb4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                  jMaxNeg   0x001ebe    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                  jMaxPos   0x001eb8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                      jNE   0x001f42    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                    jNext   0x001d4a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-                jNoAdjust   0x001d48    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-                  jNoExch   0x001f6a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                 jNoMatch   0x002d24    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
-             jNotBothZero   0x001bec    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                  jNotInf   0x001ec8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                  jPkLoop   0x001ff4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-             jPkRoundDone   0x00203e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-               jPkRoundIt   0x002026    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-             jPkShiftDone   0x002010    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x001fca    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-                  jRotate   0x001f9c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                   jShift   0x001f86    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-               jShiftDone   0x001c82    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-               jShiftLoop   0x001c74    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                jSignDone   0x001cb2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-              jSignedZero   0x001cf2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-                 jSignsEQ   0x001f26    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                  jUnpkA1   0x002068    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x002080    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x002076    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x002098    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x0020b0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x0020a6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x00208a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                 jWNotNeg   0x001c6e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                    jZero   0x001ec4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-               jZero1and2   0x001fce    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-                  lcd_cmd   0x002658    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                 lcd_data   0x00268c    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                 lcd_goto   0x002758    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                lcd_nputs   0x002708    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                 lcd_puts   0x0026cc    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                     loop   0x002d56    program     static                          
-                     loop   0x002d72    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
-                     loop   0x002cc8    program     static                          
-                   loop_h   0x002d34    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
-                   loop_l   0x002d3e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
-                     main   0x002d98    program     extern G:\GitHub\MWACPIC\main.c 
+                 clearLCD   0x00277e    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                compare_l   0x002d6c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
+                copy_loop   0x002b50    program     static                          
+            copy_one_byte   0x002b56    program     static                          
+                     done   0x002b7a    program     static                          
+             done_copying   0x002b64    program     static                          
+             frameProceed   0x00164c    program     extern G:\GitHub\MWACPIC\MWACProtocol.c
+                     init   0x002834    program     extern G:\GitHub\MWACPIC\init.c 
+                  initLCD   0x0027c2    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                  isdigit   0x002d32    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                 jANotInf   0x001be6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                 jANotInf   0x001d08    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+                 jANotInf   0x001dae    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
+                 jANotNeg   0x001c7a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                jANotZero   0x001d1c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+              jAandWsetup   0x001c4a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                  jAisNeg   0x001fa0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                 jAltBexp   0x001c38    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                jBANotInf   0x001bdc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                 jBNotInf   0x001bf4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+              jBothFinite   0x001dbc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
+             jBothNotZero   0x001dc8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
+             jBothNotZero   0x001f42    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+            jDifOrPosSign   0x001c08    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                      jEQ   0x001f5e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                     jEnd   0x002a92    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                     jEnd   0x002aca    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                    jExch   0x001f6a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                    jExit   0x001f10    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                   jExpEQ   0x001fb0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                   jFinal   0x001f94    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+               jFinalSign   0x001ce2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                jHaveZero   0x001dc4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
+                    jLoop   0x002a5e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strcpy.asm
+                    jLoop   0x001ef8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                    jLoop   0x001d44    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+                    jLoop   0x002a88    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                    jLoop   0x002ab2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                jLoopExit   0x001f06    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                   jMatch   0x002d52    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                     jMax   0x001ed4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x001ede    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                  jMaxPos   0x001ed8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                      jNE   0x001f62    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                    jNext   0x001d6a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+                jNoAdjust   0x001d68    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+                  jNoExch   0x001f8a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                 jNoMatch   0x002d54    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+             jNotBothZero   0x001c0c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                  jNotInf   0x001ee8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                  jPkLoop   0x002014    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+             jPkRoundDone   0x00205e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+               jPkRoundIt   0x002046    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+             jPkShiftDone   0x002030    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x001fea    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+                  jRotate   0x001fbc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                   jShift   0x001fa6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+               jShiftDone   0x001ca2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+               jShiftLoop   0x001c94    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                jSignDone   0x001cd2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+              jSignedZero   0x001d12    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+                 jSignsEQ   0x001f46    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                  jUnpkA1   0x002088    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x0020a0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x002096    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x0020b8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x0020d0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x0020c6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x0020aa    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                 jWNotNeg   0x001c8e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                    jZero   0x001ee4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+               jZero1and2   0x001fee    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+                  lcd_cmd   0x002688    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                 lcd_data   0x0026bc    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                 lcd_goto   0x002788    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                lcd_nputs   0x002738    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                 lcd_puts   0x0026fc    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                     loop   0x002d86    program     static                          
+                     loop   0x002da2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
+                     loop   0x002cf8    program     static                          
+                   loop_h   0x002d64    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
+                   loop_l   0x002d6e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
+                     main   0x002dc8    program     extern G:\GitHub\MWACPIC\main.c 
          pullCharFromFifo   0x0012e2    program     extern G:\GitHub\MWACPIC\serial.c
          pushCharIntoFifo   0x001186    program     extern G:\GitHub\MWACPIC\serial.c
-                     putc   0x002b4c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
-                 s_digits   0x002dac    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                     putc   0x002b7c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
+                 s_digits   0x002ddc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
             s_put_n_chars   0x000028    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
    sendAgentAdrSerialPort   0x000e2a    program     extern G:\GitHub\MWACPIC\serial.c
        sendCharSerialPort   0x000db6    program     extern G:\GitHub\MWACPIC\serial.c
 sendDataLinkFrameSerialPort   0x000c4a    program     extern G:\GitHub\MWACPIC\serial.c
 sendFrameHeaderSerialPort   0x000dd0    program     extern G:\GitHub\MWACPIC\serial.c
-  sendIntroductionMessage   0x0014ac    program     extern G:\GitHub\MWACPIC\MWACProtocol.c
+  sendIntroductionMessage   0x0014c0    program     extern G:\GitHub\MWACPIC\MWACProtocol.c
    sendShortIntSerialPort   0x000de2    program     extern G:\GitHub\MWACPIC\serial.c
-sendWhoAreMyNeighboursMessage   0x001530    program     extern G:\GitHub\MWACPIC\MWACProtocol.c
-              serveurUART   0x0020ba    program     extern G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
-                  sprintf   0x00295a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\sprintf.c
-                   strcpy   0x002a06    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strcpy.asm
-                   strlen   0x002a48    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x002a64    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                     test   0x002ac8    program     static                          
+sendWhoAreMyNeighboursMessage   0x001544    program     extern G:\GitHub\MWACPIC\MWACProtocol.c
+              serveurUART   0x0020da    program     extern G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
+                  sprintf   0x00298a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\sprintf.c
+                   strcpy   0x002a36    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strcpy.asm
+                   strlen   0x002a78    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x002a94    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                     test   0x002af8    program     static                          
                  vfprintf   0x000054    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
-               zero_block   0x002d34    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
+               zero_block   0x002d64    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
                    ADCON0   0x000fc2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
                ADCON0bits   0x000fc2       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
                    ADCON1   0x000fc1       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
@@ -766,7 +766,7 @@ sendWhoAreMyNeighboursMessage   0x001530    program     extern G:\GitHub\MWACPIC
                   __tmp_0   0x000014       data     static G:\GitHub\MWACPIC\lcdTools.c
                   __tmp_0   0x000014       data     static G:\GitHub\MWACPIC\init.c 
                   __tmp_1   0x000020       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
-                   blancs   0x0005e2       data     extern G:\GitHub\MWACPIC\init.c 
+                   blancs   0x0005e4       data     extern G:\GitHub\MWACPIC\init.c 
                 curr_byte   0x000113       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
                curr_entry   0x000115       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
                  data_ptr   0x000117       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
@@ -775,14 +775,14 @@ sendWhoAreMyNeighboursMessage   0x001530    program     extern G:\GitHub\MWACPIC
                 gl_ligne1   0x0000c5       data     extern G:\GitHub\MWACPIC\appli.h
                 gl_ligne2   0x0000d9       data     extern G:\GitHub\MWACPIC\appli.h
                     gl_me   0x000060       data     extern G:\GitHub\MWACPIC\thisAgent.h
-                 messErr1   0x0005d2       data     static G:\GitHub\MWACPIC\init.c 
+                 messErr1   0x0005d4       data     static G:\GitHub\MWACPIC\init.c 
                      prom   0x000110       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
              s_appPDUSize   0x000108       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
              s_appPDUType   0x00010c       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
         s_appReceiverAddr   0x000104       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
           s_appSenderAddr   0x000100       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
                 s_charCnt   0x00010e       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
-                  s_state   0x0000fe       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
+                  s_state   0x0005f5       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
 
 
 
@@ -856,150 +856,150 @@ calculeBAudRateGenerateur   0x000eea    program     extern G:\GitHub\MWACPIC\ser
          pushCharIntoFifo   0x001186    program     extern G:\GitHub\MWACPIC\serial.c
          pullCharFromFifo   0x0012e2    program     extern G:\GitHub\MWACPIC\serial.c
                  FIFOinit   0x0013ec    program     extern G:\GitHub\MWACPIC\serial.c
-  sendIntroductionMessage   0x0014ac    program     extern G:\GitHub\MWACPIC\MWACProtocol.c
-sendWhoAreMyNeighboursMessage   0x001530    program     extern G:\GitHub\MWACPIC\MWACProtocol.c
-             frameProceed   0x001638    program     extern G:\GitHub\MWACPIC\MWACProtocol.c
-                    FPS32   0x001b9c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                    FPA32   0x001b9e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                jBANotInf   0x001bbc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                 jANotInf   0x001bc6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                 jBNotInf   0x001bd4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-            jDifOrPosSign   0x001be8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-             jNotBothZero   0x001bec    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                 jAltBexp   0x001c18    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-              jAandWsetup   0x001c2a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                 jANotNeg   0x001c5a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                 jWNotNeg   0x001c6e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-               jShiftLoop   0x001c74    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-               jShiftDone   0x001c82    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                jSignDone   0x001cb2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-               jFinalSign   0x001cc2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
-                    FPD32   0x001cca    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-                 jANotInf   0x001ce8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-              jSignedZero   0x001cf2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-                jANotZero   0x001cfc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-                    jLoop   0x001d24    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-                jNoAdjust   0x001d48    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-                    jNext   0x001d4a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
-                    FPM32   0x001d70    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
-                 jANotInf   0x001d8e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
-              jBothFinite   0x001d9c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
-                jHaveZero   0x001da4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
-             jBothNotZero   0x001da8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
-                 FXM1616S   0x001e4a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
-               TSIGN1616A   0x001e96    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
-                  INT3208   0x001ea4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                     jMax   0x001eb4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                  jMaxPos   0x001eb8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                  jMaxNeg   0x001ebe    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                    jZero   0x001ec4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                  jNotInf   0x001ec8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                    jLoop   0x001ed8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                jLoopExit   0x001ee6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                    jExit   0x001ef0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
-                  TAGTB32   0x001ef2    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\gtFP.asm
-              __FpCompare   0x001f04    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-             jBothNotZero   0x001f22    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                 jSignsEQ   0x001f26    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                      jEQ   0x001f3e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                      jNE   0x001f42    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                    jExch   0x001f4a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                  jNoExch   0x001f6a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                   jFinal   0x001f74    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                  jAisNeg   0x001f80    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                   jShift   0x001f86    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                   jExpEQ   0x001f90    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-                  jRotate   0x001f9c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
-            __FpReturnNaN   0x001fae    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-                 __FpExit   0x001fba    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x001fbc    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x001fc0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x001fc6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x001fca    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-               jZero1and2   0x001fce    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x001fd4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x001fd8    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x001fe0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-                 __FpPack   0x001fe6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-                  jPkLoop   0x001ff4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-             jPkShiftDone   0x002010    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-               jPkRoundIt   0x002026    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-             jPkRoundDone   0x00203e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-              __FpReturnW   0x00203e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
-              __FpUnPackA   0x00205e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                  jUnpkA1   0x002068    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x002076    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x002080    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x00208a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x00208e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x002098    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x0020a6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x0020b0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
-              serveurUART   0x0020ba    program     extern G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
-               afficheLCD   0x002492    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                 DelayMUs   0x0025f2    program     extern G:\GitHub\MWACPIC\lcdTools.c
-        ___while_lbl00011   0x0025fa    program     static                          
-        ___while_lbl00012   0x00260c    program     static                          
-       ___return_lbl00010   0x00260c    program     static                          
-                  DelayMs   0x002614    program     extern G:\GitHub\MWACPIC\lcdTools.c
-               LCD_STROBE   0x00264e    program     extern G:\GitHub\MWACPIC\lcdTools.c
-       ___return_lbl00018   0x002656    program     static                          
-                  lcd_cmd   0x002658    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                 lcd_data   0x00268c    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                 lcd_puts   0x0026cc    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                lcd_nputs   0x002708    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                 clearLCD   0x00274e    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                 lcd_goto   0x002758    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                  initLCD   0x002792    program     extern G:\GitHub\MWACPIC\lcdTools.c
-                     init   0x002804    program     extern G:\GitHub\MWACPIC\init.c 
-                  sprintf   0x00295a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\sprintf.c
-                   strcpy   0x002a06    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strcpy.asm
-                    jLoop   0x002a2e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strcpy.asm
-                   strlen   0x002a48    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
-                    jLoop   0x002a58    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
-                     jEnd   0x002a62    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x002a64    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x002a82    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                   _2jEnd   0x002a98    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x002a9a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
-                _do_cinit   0x002aae    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
-                     test   0x002ac8    program     static                          
-                copy_loop   0x002b20    program     static                          
-            copy_one_byte   0x002b26    program     static                          
-             done_copying   0x002b34    program     static                          
-       ___return_lbl00002   0x002b4a    program     static                          
-                     done   0x002b4a    program     static                          
-                     putc   0x002b4c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
-                OpenUSART   0x002bd0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\uopen.c
-                  FXM3232   0x002c4a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm3232.c
-       ___return_lbl00000   0x002cb8    program     static                          
-                 FXD3232U   0x002cba    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232u.c
-                     loop   0x002cc8    program     static                          
-                   _false   0x002cfc    program     static                          
-       ___return_lbl00000   0x002d00    program     static                          
-                  isdigit   0x002d02    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
-                   jMatch   0x002d22    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x002d24    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
-            __zero_memory   0x002d26    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
-                   loop_h   0x002d34    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
-               zero_block   0x002d34    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
-                compare_l   0x002d3c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
-                   loop_l   0x002d3e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
-                 _startup   0x002d46    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
-                     loop   0x002d56    program     static                          
-       ___return_lbl00001   0x002d60    program     static                          
-              _usart_putc   0x002d62    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
-                     loop   0x002d72    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
-               __string_2   0x002d7e    program     static G:\GitHub\MWACPIC\init.c 
-               __string_0   0x002d8b    program     static G:\GitHub\MWACPIC\MWACProtocol.c
-                     main   0x002d98    program     extern G:\GitHub\MWACPIC\main.c 
-                 s_digits   0x002dac    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
-                   __init   0x002dbe    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\__init.c
+  sendIntroductionMessage   0x0014c0    program     extern G:\GitHub\MWACPIC\MWACProtocol.c
+sendWhoAreMyNeighboursMessage   0x001544    program     extern G:\GitHub\MWACPIC\MWACProtocol.c
+             frameProceed   0x00164c    program     extern G:\GitHub\MWACPIC\MWACProtocol.c
+                    FPS32   0x001bbc    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                    FPA32   0x001bbe    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                jBANotInf   0x001bdc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                 jANotInf   0x001be6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                 jBNotInf   0x001bf4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+            jDifOrPosSign   0x001c08    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+             jNotBothZero   0x001c0c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                 jAltBexp   0x001c38    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+              jAandWsetup   0x001c4a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                 jANotNeg   0x001c7a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                 jWNotNeg   0x001c8e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+               jShiftLoop   0x001c94    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+               jShiftDone   0x001ca2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                jSignDone   0x001cd2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+               jFinalSign   0x001ce2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\addFP.asm
+                    FPD32   0x001cea    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+                 jANotInf   0x001d08    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+              jSignedZero   0x001d12    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+                jANotZero   0x001d1c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+                    jLoop   0x001d44    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+                jNoAdjust   0x001d68    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+                    jNext   0x001d6a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\divFP.asm
+                    FPM32   0x001d90    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
+                 jANotInf   0x001dae    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
+              jBothFinite   0x001dbc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
+                jHaveZero   0x001dc4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
+             jBothNotZero   0x001dc8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\mulFP.asm
+                 FXM1616S   0x001e6a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x001eb6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm1616s.asm
+                  INT3208   0x001ec4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                     jMax   0x001ed4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                  jMaxPos   0x001ed8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x001ede    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                    jZero   0x001ee4    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                  jNotInf   0x001ee8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                    jLoop   0x001ef8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                jLoopExit   0x001f06    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                    jExit   0x001f10    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\castFP08.asm
+                  TAGTB32   0x001f12    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\gtFP.asm
+              __FpCompare   0x001f24    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+             jBothNotZero   0x001f42    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                 jSignsEQ   0x001f46    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                      jEQ   0x001f5e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                      jNE   0x001f62    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                    jExch   0x001f6a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                  jNoExch   0x001f8a    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                   jFinal   0x001f94    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                  jAisNeg   0x001fa0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                   jShift   0x001fa6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                   jExpEQ   0x001fb0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+                  jRotate   0x001fbc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\compFP.asm
+            __FpReturnNaN   0x001fce    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+                 __FpExit   0x001fda    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x001fdc    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x001fe0    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x001fe6    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x001fea    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+               jZero1and2   0x001fee    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x001ff4    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x001ff8    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x002000    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+                 __FpPack   0x002006    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+                  jPkLoop   0x002014    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+             jPkShiftDone   0x002030    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+               jPkRoundIt   0x002046    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+             jPkRoundDone   0x00205e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+              __FpReturnW   0x00205e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\packFP.asm
+              __FpUnPackA   0x00207e    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                  jUnpkA1   0x002088    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x002096    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x0020a0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x0020aa    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x0020ae    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x0020b8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x0020c6    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x0020d0    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\UnpackFP.asm
+              serveurUART   0x0020da    program     extern G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
+               afficheLCD   0x0024c2    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                 DelayMUs   0x002622    program     extern G:\GitHub\MWACPIC\lcdTools.c
+        ___while_lbl00011   0x00262a    program     static                          
+        ___while_lbl00012   0x00263c    program     static                          
+       ___return_lbl00010   0x00263c    program     static                          
+                  DelayMs   0x002644    program     extern G:\GitHub\MWACPIC\lcdTools.c
+               LCD_STROBE   0x00267e    program     extern G:\GitHub\MWACPIC\lcdTools.c
+       ___return_lbl00018   0x002686    program     static                          
+                  lcd_cmd   0x002688    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                 lcd_data   0x0026bc    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                 lcd_puts   0x0026fc    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                lcd_nputs   0x002738    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                 clearLCD   0x00277e    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                 lcd_goto   0x002788    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                  initLCD   0x0027c2    program     extern G:\GitHub\MWACPIC\lcdTools.c
+                     init   0x002834    program     extern G:\GitHub\MWACPIC\init.c 
+                  sprintf   0x00298a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\sprintf.c
+                   strcpy   0x002a36    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strcpy.asm
+                    jLoop   0x002a5e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strcpy.asm
+                   strlen   0x002a78    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                    jLoop   0x002a88    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                     jEnd   0x002a92    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x002a94    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x002ab2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                   _2jEnd   0x002ac8    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x002aca    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\slenpgm.asm
+                _do_cinit   0x002ade    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                     test   0x002af8    program     static                          
+                copy_loop   0x002b50    program     static                          
+            copy_one_byte   0x002b56    program     static                          
+             done_copying   0x002b64    program     static                          
+       ___return_lbl00002   0x002b7a    program     static                          
+                     done   0x002b7a    program     static                          
+                     putc   0x002b7c    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
+                OpenUSART   0x002c00    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\uopen.c
+                  FXM3232   0x002c7a    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x002ce8    program     static                          
+                 FXD3232U   0x002cea    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\fxd3232u.c
+                     loop   0x002cf8    program     static                          
+                   _false   0x002d2c    program     static                          
+       ___return_lbl00000   0x002d30    program     static                          
+                  isdigit   0x002d32    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x002d52    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x002d54    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\isdigit.asm
+            __zero_memory   0x002d56    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
+                   loop_h   0x002d64    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
+               zero_block   0x002d64    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
+                compare_l   0x002d6c    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
+                   loop_l   0x002d6e    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
+                 _startup   0x002d76    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
+                     loop   0x002d86    program     static                          
+       ___return_lbl00001   0x002d90    program     static                          
+              _usart_putc   0x002d92    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
+                     loop   0x002da2    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\pmc_common\USART\_usartpc.asm
+               __string_2   0x002dae    program     static G:\GitHub\MWACPIC\init.c 
+               __string_0   0x002dbb    program     static G:\GitHub\MWACPIC\MWACProtocol.c
+                     main   0x002dc8    program     extern G:\GitHub\MWACPIC\main.c 
+                 s_digits   0x002ddc    program     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                   __init   0x002dee    program     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\__init.c
                      SIGN   0x000000       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\cmath18.asm
-            __FPFLAGSbits   0x000001       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\cmath18.asm
                 __FPFLAGS   0x000001       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\cmath18.asm
-                  __REMB3   0x000002       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+            __FPFLAGSbits   0x000001       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\cmath18.asm
                  __AARGB7   0x000002       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
+                  __REMB3   0x000002       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
                  __AARGB6   0x000003       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
                   __REMB2   0x000003       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
                  __AARGB5   0x000004       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\aarg.asm
@@ -1021,19 +1021,18 @@ sendWhoAreMyNeighboursMessage   0x001530    program     extern G:\GitHub\MWACPIC
                  __TEMPB1   0x000012       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
                  __TEMPB0   0x000013       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
                    __TEMP   0x000013       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\math\temparg.asm
-                  __tmp_0   0x000014       data     static G:\GitHub\MWACPIC\init.c 
-                  __tmp_0   0x000014       data     static G:\GitHub\MWACPIC\lcdTools.c
-                  __tmp_0   0x000014       data     static G:\GitHub\MWACPIC\MWACProtocol.c
-                  __tmp_0   0x000014       data     static G:\GitHub\MWACPIC\serial.c
                   __tmp_0   0x000014       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\putc.c
                   __tmp_0   0x000014       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\sprintf.c
                   __tmp_0   0x000014       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\stdclib\vfprintf.c
+                  __tmp_0   0x000014       data     static G:\GitHub\MWACPIC\serial.c
+                  __tmp_0   0x000014       data     static G:\GitHub\MWACPIC\MWACProtocol.c
+                  __tmp_0   0x000014       data     static G:\GitHub\MWACPIC\lcdTools.c
+                  __tmp_0   0x000014       data     static G:\GitHub\MWACPIC\init.c 
                   __tmp_1   0x000020       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
                     gl_me   0x000060       data     extern G:\GitHub\MWACPIC\thisAgent.h
                 gl_ligne1   0x0000c5       data     extern G:\GitHub\MWACPIC\appli.h
                 gl_ligne2   0x0000d9       data     extern G:\GitHub\MWACPIC\appli.h
                 gl_blancs   0x0000ed       data     extern G:\GitHub\MWACPIC\appli.h
-                  s_state   0x0000fe       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
           s_appSenderAddr   0x000100       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
         s_appReceiverAddr   0x000104       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
              s_appPDUSize   0x000108       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
@@ -1044,8 +1043,9 @@ sendWhoAreMyNeighboursMessage   0x001530    program     extern G:\GitHub\MWACPIC
                curr_entry   0x000115       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
                  data_ptr   0x000117       data     static C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\startup\c018i.c
               gl_byteFifo   0x000500       data     extern G:\GitHub\MWACPIC\serial.h
-                 messErr1   0x0005d2       data     static G:\GitHub\MWACPIC\init.c 
-                   blancs   0x0005e2       data     extern G:\GitHub\MWACPIC\init.c 
+                 messErr1   0x0005d4       data     static G:\GitHub\MWACPIC\init.c 
+                   blancs   0x0005e4       data     extern G:\GitHub\MWACPIC\init.c 
+                  s_state   0x0005f5       data     static G:\GitHub\MWACPIC\serialLinkInterruptHandler.c
                  RXF0SIDH   0x000f00       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
              RXF0SIDHbits   0x000f00       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
                  RXF0SIDL   0x000f01       data     extern C:\Program Files\Microchip\mplabc18\v3.37\src\traditional\proc\p18F458.asm
