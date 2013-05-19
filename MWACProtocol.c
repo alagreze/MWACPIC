@@ -123,7 +123,15 @@ void frameProceed(void)
 					// we record until MAX_NB_GROUPS groups per neighbour
 					gl_me.myNeighbours[posNeighb].agentGroupId[i]=groupAd;
 				}
-			// if the neibghbour is  a representative agent, this agent becomes simple member and  his group is up_dated			
+		}
+		else
+		{  // no place in neighbours list  we must pull the end of frame from the FIFO
+			for (i=0;i<appPDUMessageSize;i++)
+				pullCharFromFifo(&gl_byteFifo);
+	  
+        }
+			// if the neibghbour is  a representative agent, this agent becomes simple member and  his group is up_dated	
+        			
 		if (gl_me.myNeighbours[posNeighb].agentRole==REPRESENTATIVE)
 		{
 			gl_me.myRole=SIMPLE_MEMBER;	
@@ -134,19 +142,13 @@ void frameProceed(void)
 			afficheLCD(1,1,gl_ligne1);
 			#endif	
 		}
-		else
-		{  // no place in neighbours list  we must pull the end of frame from the FIFO
-			for (i=0;i<appPDUMessageSize;i++)
-				pullCharFromFifo(&gl_byteFifo);
-	  
-        }
+		
 		INTCONbits.GIEH = 0; // interrupts masked
         gl_byteFifo.framesCnt--;  // one frame less
 	    INTCONbits.GIEH = 1; // interrupts unmasked
 		if(appPDUType== WHO_ARE_MY_NEIGHBOURS)
 			sendPresentationMessage();
 		
-}
 }
 }
 }
