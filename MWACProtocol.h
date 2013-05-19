@@ -11,5 +11,6 @@
 PUBLIC_MWAC void sendIntroductionMessage(void);
 PUBLIC_MWAC void sendWhoAreMyNeighboursMessage(void);
 PUBLIC_MWAC void frameProceed(void);
+PUBLIC_MWAC void sendPresentationMessage(void);
 
 #endif 

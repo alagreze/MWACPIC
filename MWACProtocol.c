@@ -42,7 +42,31 @@ void sendWhoAreMyNeighboursMessage(void)
 		appPDU.message[3]=(gl_me.myGroup>>8)&0xFF;
 		appPDU.message[4]=gl_me.myGroup&0xFF;
 		break;
-	// to complete to consider the other cases (LINK   REPRESENTATIVE)
+	// to compleete to consider the other cases (LINK   REPRESENTATIVE)
+    }	
+	sendDataLinkFrameSerialPort(gl_me.myId , BROADCAST_ADDR, &appPDU);
+}
+
+void sendPresentationMessage(void)
+{
+	appliPDU_T appPDU; // for preparing appli PDU
+	appPDU.appSenderId=gl_me.myId;
+	appPDU.appReceiverId=(unsigned long int)BROADCAST_ADDR;
+	appPDU.type=PRESENTATION;  // message type
+	appPDU.message[0]=gl_me.myRole;
+    switch ( gl_me.myRole)
+    {	
+	 case NOTHING :
+		appPDU.appliPDUlength= WHO_ARE_MY_NEIGHBOURS_PDU_MESSAGE_SIZE_WITHOUTGROUP+APPLI_HEADER_SIZE;
+		break;
+	 case SIMPLE_MEMBER :
+		appPDU.appliPDUlength= WHO_ARE_MY_NEIGHBOURS_PDU_MESSAGE_SIZE_WITH_ONE_GROUP+APPLI_HEADER_SIZE;
+		appPDU.message[1]=(gl_me.myGroup>>24)&0xFF;  // put the group appartenance in the message 
+		appPDU.message[2]=(gl_me.myGroup>>16)&0xFF;
+		appPDU.message[3]=(gl_me.myGroup>>8)&0xFF;
+		appPDU.message[4]=gl_me.myGroup&0xFF;
+		break;
+	// to compleete to consider the other cases (LINK   REPRESENTATIVE)
     }	
 	sendDataLinkFrameSerialPort(gl_me.myId , BROADCAST_ADDR, &appPDU);
 }
@@ -67,6 +91,8 @@ void frameProceed(void)
 	  appPDUMessageSize=pullCharFromFifo(&gl_byteFifo);;
       switch (appPDUType){
 	  case PRESENTATION :
+	  case WHO_ARE_MY_NEIGHBOURS:
+	  case DATA :
 		// update neighbours array
 		for (i=0;i<gl_me.nbNeighbours;i++)
 		{
@@ -106,9 +132,7 @@ void frameProceed(void)
 			#ifdef LCD_DISPLAY 
 			afficheLCD(1,1,gl_blancs);
 			afficheLCD(1,1,gl_ligne1);
-			#endif
-				
-			
+			#endif	
 		}
 		else
 		{  // no place in neighbours list  we must pull the end of frame from the FIFO
@@ -119,6 +143,9 @@ void frameProceed(void)
 		INTCONbits.GIEH = 0; // interrupts masked
         gl_byteFifo.framesCnt--;  // one frame less
 	    INTCONbits.GIEH = 1; // interrupts unmasked
+		if(appPDUType== WHO_ARE_MY_NEIGHBOURS)
+			sendPresentationMessage();
+		
 }
 }
 }
