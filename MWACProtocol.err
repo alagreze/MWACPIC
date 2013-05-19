@@ -1,2 +1,3 @@
-Warning[2066] F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c 131 : type qualifier mismatch in assignment
-Warning[2066] F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c 150 : type qualifier mismatch in assignment
+Warning[2054] F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c 36 : suspicious pointer conversion
+Warning[2066] F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c 145 : type qualifier mismatch in assignment
+Warning[2066] F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c 164 : type qualifier mismatch in assignment

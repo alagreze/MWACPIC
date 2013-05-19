@@ -11,19 +11,34 @@
 #include "serial.h"
 #define _DEF_APPLI_
 #include "appli.h"
-me_T gl_me;
+#include "boutons.h"
+#include <string.h>
+#include <stdio.h>
+
+//me_T gl_me;
 
 // ********* prototype des fonctions *******
 void init (void);
-
+// ********* globales *******
+char tempe[]="22.5°C";
+char message[MAX_SIZE_MESSAGE];
 // ********* programme principal *******
 void main(void)
 {
+  unsigned long int tempeReceiverAgent=1;
   init();
   sendIntroductionMessage(); 
   sendWhoAreMyNeighboursMessage();
   while(1)
   {
+    if (bouton(BoutonS2))
+    {
+	  tempeReceiverAgent++;
+	  sprintf(message,"Mag#%ld ",tempeReceiverAgent);
+	  strcat(message,tempe);	
+      sendDataMessage(tempeReceiverAgent, message);
+		
+    }
     frameProceed();  //  polling the FIFO and proceeds one frame if there is. If no, give the hand back 
   }
 }

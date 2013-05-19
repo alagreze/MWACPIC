@@ -1,3 +1,7 @@
+Version 1.8
+On rajoute aux fonctionanlités précédentes:
+- émission d'une trame DATA de température à chaque appui sur le bouton S2. Pour l'instant, la mesure de température est simulée
+  par une chaine de caractères "22.5 °C"  qui n'évolue pas  
 Version 1.7
 Fonctionnalités implantées:
 Au démarrage, envoie une trame de présentation suivie d'une trame de découverte des voisins.

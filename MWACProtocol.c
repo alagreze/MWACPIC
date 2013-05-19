@@ -22,7 +22,21 @@ void sendIntroductionMessage(void)
 	sendDataLinkFrameSerialPort(gl_me.myId , BROADCAST_ADDR, &appPDU);
 	
 }
-
+// ************************************************************************
+// **  send a message  (char string terminated by 0 but this 0 is not sent)
+//  to the agent receiveAg
+// ************************************************************************
+void sendDataMessage(unsigned long int receiveAg, char *message)
+{
+	appliPDU_T appPDU; // for preparing appli PDU
+	appPDU.appliPDUlength= APPLI_HEADER_SIZE+strlen(message);
+	appPDU.appSenderId=gl_me.myId;
+	appPDU.appReceiverId=(unsigned long int)receiveAg;
+	appPDU.type=DATA;  // message type
+    strcpy(appPDU.message,message); // copy message into appPDU message
+	sendDataLinkFrameSerialPort(gl_me.myId , (unsigned long int)receiveAg, &appPDU);
+	
+}
 void sendWhoAreMyNeighboursMessage(void)
 {
 	appliPDU_T appPDU; // for preparing appli PDU

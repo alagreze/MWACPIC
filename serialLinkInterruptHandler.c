@@ -2,7 +2,8 @@
 #include "usart.h"
 #include "serial.h"
 #include "thisAgent.h"
-extern me_T gl_me;
+#include "appli.h"
+
 void serveurUART (void);
 
 //----------------------------------------------------------------------------
