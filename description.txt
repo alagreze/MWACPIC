@@ -1,3 +1,9 @@
+Version 1.9.1 
+Mêmes fonctionnalités que v1_8 mais la pris de température n'est plus simulée mais mesurée sur le capteur TC74 de la carte.
+Par ailleurs, pour des pb de compatibilité avec MPLABX , la configuration des bits de conf est faite dans le code .
+OK  fonctionne bien 
+
+
 Version 1.8
 On rajoute aux fonctionanlités précédentes:
 - émission d'une trame DATA de température à chaque appui sur le bouton S2. Pour l'instant, la mesure de température est simulée

@@ -14,13 +14,12 @@
 #include "boutons.h"
 #include <string.h>
 #include <stdio.h>
-
-//me_T gl_me;
+#include "LM75.h"
 
 // ********* prototype des fonctions *******
 void init (void);
 // ********* globales *******
-char tempe[]="22.5°C";
+char tempe[10];
 char message[MAX_SIZE_MESSAGE];
 // ********* programme principal *******
 void main(void)
@@ -33,6 +32,7 @@ void main(void)
   {
     if (bouton(BoutonS2))
     {
+	  getTempeAsString(tempe, TC74CARTE);
 	  tempeReceiverAgent++;
 	  sprintf(message,"Mag#%ld ",tempeReceiverAgent);
 	  strcat(message,tempe);	
