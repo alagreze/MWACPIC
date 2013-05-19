@@ -1,5 +1,5 @@
 MPLINK 4.20, Linker
-Linker Map File - Created Sun May 19 10:02:06 2013
+Linker Map File - Created Sun May 19 11:31:34 2013
 
                                  Section Info
                   Section       Type    Address   Location Size(Bytes)
@@ -9,57 +9,57 @@ Linker Map File - Created Sun May 19 10:02:06 2013
       InterruptVectorHigh       code   0x000008    program   0x000006
                    .cinit    romdata   0x00000e    program   0x00001a
          .code_vfprintf.o       code   0x000028    program   0x000c22
-           .code_serial.o       code   0x000c4a    program   0x000876
-     .code_MWACProtocol.o       code   0x0014c0    program   0x000816
-                     PROG       code   0x001cd6    program   0x00051e
-.code_serialLinkInterruptHandler.o       code   0x0021f4    program   0x0003e8
-         .code_lcdTools.o       code   0x0025dc    program   0x000372
-             .code_init.o       code   0x00294e    program   0x000156
-          .code_sprintf.o       code   0x002aa4    program   0x0000ac
-                   STRING       code   0x002b50    program   0x0000a8
-               _cinit_scn       code   0x002bf8    program   0x00009e
-             .code_putc.o       code   0x002c96    program   0x000084
-            .code_uopen.o       code   0x002d1a    program   0x00007a
-          .code_fxm3232.o       code   0x002d94    program   0x000070
-         .code_fxd3232u.o       code   0x002e04    program   0x000048
-                    CTYPE       code   0x002e4c    program   0x000024
-             _startup_scn       code   0x002e70    program   0x00001c
-                    STDIO       code   0x002e8c    program   0x00001c
-             .stringtable    romdata   0x002ea8    program   0x00001a
-             .code_main.o       code   0x002ec2    program   0x000014
-      .romdata_vfprintf.o    romdata   0x002ed6    program   0x000011
-       .romdata_sprintf.o    romdata   0x002ee7    program   0x000000
-       .idata_sprintf.o_i    romdata   0x002ee7    program   0x000000
-        .romdata___init.o    romdata   0x002ee7    program   0x000000
-    .romdata__user_putc.o    romdata   0x002ee7    program   0x000000
-      .idata_vfprintf.o_i    romdata   0x002ee7    program   0x000000
-      .romdata_fxd3232u.o    romdata   0x002ee7    program   0x000000
-       .romdata_fxm3232.o    romdata   0x002ee7    program   0x000000
-          .romdata_putc.o    romdata   0x002ee7    program   0x000000
-.romdata_serialLinkInterruptHandler.o    romdata   0x002ee7    program   0x000000
-      .romdata_lcdTools.o    romdata   0x002ee7    program   0x000000
-          .romdata_main.o    romdata   0x002ee7    program   0x000000
-.idata_serialLinkInterruptHandler.o_i    romdata   0x002ee7    program   0x000001
-         .romdata_c018i.o    romdata   0x002ee7    program   0x000000
-  .romdata_MWACProtocol.o    romdata   0x002ee7    program   0x000000
-        .romdata_serial.o    romdata   0x002ee7    program   0x000000
-         .idata_uopen.o_i    romdata   0x002ee7    program   0x000000
-         .romdata_uopen.o    romdata   0x002ee7    program   0x000000
-          .romdata_init.o    romdata   0x002ee7    program   0x000000
-                    .code       code   0x002ee8    program   0x00000e
-           .code___init.o       code   0x002ef6    program   0x000002
-        .idata_serial.o_i    romdata   0x002ef8    program   0x000000
-          .idata_main.o_i    romdata   0x002ef8    program   0x000000
-          .idata_init.o_i    romdata   0x002ef8    program   0x000021
-      .idata_lcdTools.o_i    romdata   0x002ef8    program   0x000000
-          .idata_putc.o_i    romdata   0x002ef8    program   0x000000
-    .idata__user_putc.o_i    romdata   0x002f19    program   0x000000
-         .idata_c018i.o_i    romdata   0x002f19    program   0x000000
-       .idata_fxm3232.o_i    romdata   0x002f19    program   0x000000
-      .idata_fxd3232u.o_i    romdata   0x002f19    program   0x000000
-  .idata_MWACProtocol.o_i    romdata   0x002f19    program   0x000000
-        .idata___init.o_i    romdata   0x002f19    program   0x000000
-            .code_c018i.o       code   0x002f1a    program   0x000000
+     .code_MWACProtocol.o       code   0x000c4a    program   0x00089e
+           .code_serial.o       code   0x0014e8    program   0x000876
+                     PROG       code   0x001d5e    program   0x00051e
+.code_serialLinkInterruptHandler.o       code   0x00227c    program   0x0003e8
+         .code_lcdTools.o       code   0x002664    program   0x000372
+             .code_init.o       code   0x0029d6    program   0x000156
+                   STRING       code   0x002b2c    program   0x0000f0
+          .code_sprintf.o       code   0x002c1c    program   0x0000ac
+               _cinit_scn       code   0x002cc8    program   0x00009e
+             .code_putc.o       code   0x002d66    program   0x000084
+            .code_uopen.o       code   0x002dea    program   0x00007a
+          .code_fxm3232.o       code   0x002e64    program   0x000070
+         .code_fxd3232u.o       code   0x002ed4    program   0x000048
+                    CTYPE       code   0x002f1c    program   0x000024
+             .stringtable    romdata   0x002f40    program   0x000023
+       .idata_fxm3232.o_i    romdata   0x002f63    program   0x000000
+      .idata_fxd3232u.o_i    romdata   0x002f63    program   0x000000
+       .romdata_fxm3232.o    romdata   0x002f63    program   0x000000
+      .idata_vfprintf.o_i    romdata   0x002f63    program   0x000000
+       .idata_sprintf.o_i    romdata   0x002f63    program   0x000000
+          .idata_putc.o_i    romdata   0x002f63    program   0x000000
+        .romdata___init.o    romdata   0x002f63    program   0x000000
+          .romdata_putc.o    romdata   0x002f63    program   0x000000
+        .idata___init.o_i    romdata   0x002f63    program   0x000000
+    .idata__user_putc.o_i    romdata   0x002f63    program   0x000000
+         .idata_c018i.o_i    romdata   0x002f63    program   0x000000
+         .romdata_c018i.o    romdata   0x002f63    program   0x000000
+.romdata_serialLinkInterruptHandler.o    romdata   0x002f63    program   0x000000
+      .idata_lcdTools.o_i    romdata   0x002f63    program   0x000000
+      .romdata_lcdTools.o    romdata   0x002f63    program   0x000000
+          .idata_main.o_i    romdata   0x002f63    program   0x000000
+  .idata_MWACProtocol.o_i    romdata   0x002f63    program   0x000000
+         .romdata_uopen.o    romdata   0x002f63    program   0x000000
+        .idata_serial.o_i    romdata   0x002f63    program   0x000000
+            .code_c018i.o       code   0x002f64    program   0x000000
+             _startup_scn       code   0x002f64    program   0x00001c
+                    STDIO       code   0x002f80    program   0x00001c
+             .code_main.o       code   0x002f9c    program   0x000014
+      .romdata_vfprintf.o    romdata   0x002fb0    program   0x000011
+         .idata_uopen.o_i    romdata   0x002fc1    program   0x000000
+    .romdata__user_putc.o    romdata   0x002fc1    program   0x000000
+          .romdata_init.o    romdata   0x002fc1    program   0x000000
+.idata_serialLinkInterruptHandler.o_i    romdata   0x002fc1    program   0x000001
+        .romdata_serial.o    romdata   0x002fc1    program   0x000000
+       .romdata_sprintf.o    romdata   0x002fc1    program   0x000000
+      .romdata_fxd3232u.o    romdata   0x002fc1    program   0x000000
+          .romdata_main.o    romdata   0x002fc1    program   0x000000
+  .romdata_MWACProtocol.o    romdata   0x002fc1    program   0x000000
+                    .code       code   0x002fc2    program   0x00000e
+           .code___init.o       code   0x002fd0    program   0x000002
+          .idata_init.o_i    romdata   0x002fd2    program   0x000021
                 MATH_DATA      udata   0x000000       data   0x000014
                  .tmpdata      udata   0x000014       data   0x00000c
           serveurUART_tmp      udata   0x000020       data   0x000008
@@ -106,55 +106,56 @@ Linker Map File - Created Sun May 19 10:02:06 2013
                               Program Memory Usage 
                                Start         End      
                            ---------   ---------      
-                            0x000000    0x002f18      
-            12057 out of 33048 program addresses used, program memory utilization is 36%
+                            0x000000    0x002f62      
+                            0x002f64    0x002ff2      
+            12274 out of 33048 program addresses used, program memory utilization is 37%
 
 
 
                               Symbols - Sorted by Name
                      Name    Address   Location    Storage File                     
                 ---------  ---------  ---------  --------- ---------                
-                 DelayMUs   0x00273c    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                  DelayMs   0x00275e    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                 FIFOinit   0x0013ec    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-                    FPA32   0x001cd8    program     extern C:\MCC18\src\traditional\math\addFP.asm
-                    FPD32   0x001e04    program     extern C:\MCC18\src\traditional\math\divFP.asm
-                    FPM32   0x001eaa    program     extern C:\MCC18\src\traditional\math\mulFP.asm
-                    FPS32   0x001cd6    program     extern C:\MCC18\src\traditional\math\addFP.asm
-                 FXD3232U   0x002e04    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
-                 FXM1616S   0x001f84    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
-                  FXM3232   0x002d94    program     extern C:\MCC18\src\traditional\math\fxm3232.c
-                  INT3208   0x001fde    program     extern C:\MCC18\src\traditional\math\castFP08.asm
+                 DelayMUs   0x0027c4    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                  DelayMs   0x0027e6    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                 FIFOinit   0x001c8a    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+                    FPA32   0x001d60    program     extern C:\MCC18\src\traditional\math\addFP.asm
+                    FPD32   0x001e8c    program     extern C:\MCC18\src\traditional\math\divFP.asm
+                    FPM32   0x001f32    program     extern C:\MCC18\src\traditional\math\mulFP.asm
+                    FPS32   0x001d5e    program     extern C:\MCC18\src\traditional\math\addFP.asm
+                 FXD3232U   0x002ed4    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
+                 FXM1616S   0x00200c    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
+                  FXM3232   0x002e64    program     extern C:\MCC18\src\traditional\math\fxm3232.c
+                  INT3208   0x002066    program     extern C:\MCC18\src\traditional\math\castFP08.asm
       InterruptVectorHigh   0x000008    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serialLinkInterruptHandler.c
-               LCD_STROBE   0x002798    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                OpenUSART   0x002d1a    program     extern C:\MCC18\src\pmc_common\USART\uopen.c
-                  TAGTB32   0x00202c    program     extern C:\MCC18\src\traditional\math\gtFP.asm
-               TSIGN1616A   0x001fd0    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
-                   _2jEnd   0x002be2    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-              __FpCompare   0x00203e    program     extern C:\MCC18\src\traditional\math\compFP.asm
-                 __FpExit   0x0020f4    program     extern C:\MCC18\src\traditional\math\packFP.asm
-                 __FpPack   0x002120    program     extern C:\MCC18\src\traditional\math\packFP.asm
-            __FpReturnNaN   0x0020e8    program     extern C:\MCC18\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x0020fa    program     extern C:\MCC18\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x002112    program     extern C:\MCC18\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x002100    program     extern C:\MCC18\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x00211a    program     extern C:\MCC18\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x0020f6    program     extern C:\MCC18\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x00210e    program     extern C:\MCC18\src\traditional\math\packFP.asm
-              __FpReturnW   0x002178    program     extern C:\MCC18\src\traditional\math\packFP.asm
-              __FpUnPackA   0x002198    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x0021c8    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
+               LCD_STROBE   0x002820    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                OpenUSART   0x002dea    program     extern C:\MCC18\src\pmc_common\USART\uopen.c
+                  TAGTB32   0x0020b4    program     extern C:\MCC18\src\traditional\math\gtFP.asm
+               TSIGN1616A   0x002058    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
+                   _2jEnd   0x002c06    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+              __FpCompare   0x0020c6    program     extern C:\MCC18\src\traditional\math\compFP.asm
+                 __FpExit   0x00217c    program     extern C:\MCC18\src\traditional\math\packFP.asm
+                 __FpPack   0x0021a8    program     extern C:\MCC18\src\traditional\math\packFP.asm
+            __FpReturnNaN   0x002170    program     extern C:\MCC18\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x002182    program     extern C:\MCC18\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x00219a    program     extern C:\MCC18\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x002188    program     extern C:\MCC18\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x0021a2    program     extern C:\MCC18\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x00217e    program     extern C:\MCC18\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x002196    program     extern C:\MCC18\src\traditional\math\packFP.asm
+              __FpReturnW   0x002200    program     extern C:\MCC18\src\traditional\math\packFP.asm
+              __FpUnPackA   0x002220    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x002250    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
        ___return_lbl00000   0x00000c    program     static                          
-       ___return_lbl00000   0x002e4a    program     static                          
-       ___return_lbl00000   0x002e02    program     static                          
+       ___return_lbl00000   0x002f1a    program     static                          
+       ___return_lbl00000   0x002ed2    program     static                          
        ___return_lbl00000   0x000004    program     static                          
-       ___return_lbl00001   0x002e8a    program     static                          
-       ___return_lbl00002   0x002c94    program     static                          
-       ___return_lbl00010   0x002756    program     static                          
-       ___return_lbl00018   0x0027a0    program     static                          
-        ___while_lbl00011   0x002744    program     static                          
-        ___while_lbl00012   0x002756    program     static                          
-                   __init   0x002ef6    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+       ___return_lbl00001   0x002f7e    program     static                          
+       ___return_lbl00002   0x002d64    program     static                          
+       ___return_lbl00010   0x0027de    program     static                          
+       ___return_lbl00018   0x002828    program     static                          
+        ___while_lbl00011   0x0027cc    program     static                          
+        ___while_lbl00012   0x0027de    program     static                          
+                   __init   0x002fd0    program     extern C:\MCC18\src\traditional\stdclib\__init.c
                    __pa_0   0x000968    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                    __pa_1   0x000970    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_10   0x000a24    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
@@ -202,121 +203,125 @@ Linker Map File - Created Sun May 19 10:02:06 2013
                    __pa_7   0x0009d6    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                    __pa_8   0x0009e2    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                    __pa_9   0x000a04    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-               __string_0   0x002eb5    program     static F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
-               __string_2   0x002ea8    program     static F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\init.c
+               __string_0   0x002f56    program     static F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
+               __string_1   0x002f4d    program     static F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
+               __string_2   0x002f40    program     static F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\init.c
               __tmplbl_42   0x000afe    program     static                          
               __tmplbl_43   0x000946    program     static                          
               __tmplbl_44   0x00092c    program     static                          
               __tmplbl_85   0x00007e    program     static                          
-            __zero_memory   0x002ee8    program     extern C:\MCC18\src\traditional\proc\p18F458.asm
-                _do_cinit   0x002bf8    program     extern C:\MCC18\src\traditional\startup\c018i.c
+            __zero_memory   0x002fc2    program     extern C:\MCC18\src\traditional\proc\p18F458.asm
+                _do_cinit   0x002cc8    program     extern C:\MCC18\src\traditional\startup\c018i.c
                    _entry   0x000000    program     extern C:\MCC18\src\traditional\startup\c018i.c
-                   _false   0x002e46    program     static                          
-                 _startup   0x002e70    program     extern C:\MCC18\src\traditional\startup\c018i.c
-              _usart_putc   0x002e8c    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                   _false   0x002f16    program     static                          
+                 _startup   0x002f64    program     extern C:\MCC18\src\traditional\startup\c018i.c
+              _usart_putc   0x002f80    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
                _user_putc   0x000006    program     extern C:\MCC18\src\traditional\stdclib\_user_putc.c
-               afficheLCD   0x0025dc    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-calculeBAudRateGenerateur   0x000eea    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-                 clearLCD   0x002898    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-               clear_loop   0x002eee    program     static C:\MCC18\src\traditional\proc\p18F458.asm
-                copy_loop   0x002c6a    program     static                          
-            copy_one_byte   0x002c70    program     static                          
-                     done   0x002c94    program     static                          
-             done_copying   0x002c7e    program     static                          
-             frameProceed   0x001754    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
-                     init   0x00294e    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\init.c
-                  initLCD   0x0028dc    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                  isdigit   0x002e4c    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
-                 jANotInf   0x001ec8    program     static C:\MCC18\src\traditional\math\mulFP.asm
-                 jANotInf   0x001d00    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jANotInf   0x001e22    program     static C:\MCC18\src\traditional\math\divFP.asm
-                 jANotNeg   0x001d94    program     static C:\MCC18\src\traditional\math\addFP.asm
-                jANotZero   0x001e36    program     static C:\MCC18\src\traditional\math\divFP.asm
-              jAandWsetup   0x001d64    program     static C:\MCC18\src\traditional\math\addFP.asm
-                  jAisNeg   0x0020ba    program     static C:\MCC18\src\traditional\math\compFP.asm
-                 jAltBexp   0x001d52    program     static C:\MCC18\src\traditional\math\addFP.asm
-                jBANotInf   0x001cf6    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jBNotInf   0x001d0e    program     static C:\MCC18\src\traditional\math\addFP.asm
-              jBothFinite   0x001ed6    program     static C:\MCC18\src\traditional\math\mulFP.asm
-             jBothNotZero   0x00205c    program     static C:\MCC18\src\traditional\math\compFP.asm
-             jBothNotZero   0x001ee2    program     static C:\MCC18\src\traditional\math\mulFP.asm
-            jDifOrPosSign   0x001d22    program     static C:\MCC18\src\traditional\math\addFP.asm
-                      jEQ   0x002078    program     static C:\MCC18\src\traditional\math\compFP.asm
-                     jEnd   0x002bac    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
-                     jEnd   0x002be4    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                    jExch   0x002084    program     static C:\MCC18\src\traditional\math\compFP.asm
-                    jExit   0x00202a    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                   jExpEQ   0x0020ca    program     static C:\MCC18\src\traditional\math\compFP.asm
-                   jFinal   0x0020ae    program     static C:\MCC18\src\traditional\math\compFP.asm
-               jFinalSign   0x001dfc    program     static C:\MCC18\src\traditional\math\addFP.asm
-                jHaveZero   0x001ede    program     static C:\MCC18\src\traditional\math\mulFP.asm
-                    jLoop   0x002bcc    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x002012    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                    jLoop   0x002ba2    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
-                    jLoop   0x002b78    program     static C:\MCC18\src\traditional\stdclib\strcpy.asm
-                    jLoop   0x001e5e    program     static C:\MCC18\src\traditional\math\divFP.asm
-                jLoopExit   0x002020    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                   jMatch   0x002e6c    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
-                     jMax   0x001fee    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  jMaxNeg   0x001ff8    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  jMaxPos   0x001ff2    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                      jNE   0x00207c    program     static C:\MCC18\src\traditional\math\compFP.asm
-                    jNext   0x001e84    program     static C:\MCC18\src\traditional\math\divFP.asm
-                jNoAdjust   0x001e82    program     static C:\MCC18\src\traditional\math\divFP.asm
-                  jNoExch   0x0020a4    program     static C:\MCC18\src\traditional\math\compFP.asm
-                 jNoMatch   0x002e6e    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
-             jNotBothZero   0x001d26    program     static C:\MCC18\src\traditional\math\addFP.asm
-                  jNotInf   0x002002    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  jPkLoop   0x00212e    program     static C:\MCC18\src\traditional\math\packFP.asm
-             jPkRoundDone   0x002178    program     static C:\MCC18\src\traditional\math\packFP.asm
-               jPkRoundIt   0x002160    program     static C:\MCC18\src\traditional\math\packFP.asm
-             jPkShiftDone   0x00214a    program     static C:\MCC18\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x002104    program     static C:\MCC18\src\traditional\math\packFP.asm
-                  jRotate   0x0020d6    program     static C:\MCC18\src\traditional\math\compFP.asm
-                   jShift   0x0020c0    program     static C:\MCC18\src\traditional\math\compFP.asm
-               jShiftDone   0x001dbc    program     static C:\MCC18\src\traditional\math\addFP.asm
-               jShiftLoop   0x001dae    program     static C:\MCC18\src\traditional\math\addFP.asm
-                jSignDone   0x001dec    program     static C:\MCC18\src\traditional\math\addFP.asm
-              jSignedZero   0x001e2c    program     static C:\MCC18\src\traditional\math\divFP.asm
-                 jSignsEQ   0x002060    program     static C:\MCC18\src\traditional\math\compFP.asm
-                  jUnpkA1   0x0021a2    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x0021ba    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x0021b0    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x0021d2    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x0021ea    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x0021e0    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x0021c4    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jWNotNeg   0x001da8    program     static C:\MCC18\src\traditional\math\addFP.asm
-                    jZero   0x001ffe    program     static C:\MCC18\src\traditional\math\castFP08.asm
-               jZero1and2   0x002108    program     static C:\MCC18\src\traditional\math\packFP.asm
-                  lcd_cmd   0x0027a2    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                 lcd_data   0x0027d6    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                 lcd_goto   0x0028a2    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                lcd_nputs   0x002852    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                 lcd_puts   0x002816    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                     loop   0x002e9c    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
-                     loop   0x002e12    program     static                          
-                     loop   0x002e80    program     static                          
-                     main   0x002ec2    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\main.c
-         pullCharFromFifo   0x0012e2    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-         pushCharIntoFifo   0x001186    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-                     putc   0x002c96    program     extern C:\MCC18\src\traditional\stdclib\putc.c
-                 s_digits   0x002ed6    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+               afficheLCD   0x002664    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+calculeBAudRateGenerateur   0x001788    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+                 clearLCD   0x002920    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+               clear_loop   0x002fc8    program     static C:\MCC18\src\traditional\proc\p18F458.asm
+                copy_loop   0x002d3a    program     static                          
+            copy_one_byte   0x002d40    program     static                          
+                     done   0x002d64    program     static                          
+             done_copying   0x002d4e    program     static                          
+             frameProceed   0x000ede    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
+                     init   0x0029d6    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\init.c
+                  initLCD   0x002964    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                  isdigit   0x002f1c    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
+                 jANotInf   0x001f50    program     static C:\MCC18\src\traditional\math\mulFP.asm
+                 jANotInf   0x001d88    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jANotInf   0x001eaa    program     static C:\MCC18\src\traditional\math\divFP.asm
+                 jANotNeg   0x001e1c    program     static C:\MCC18\src\traditional\math\addFP.asm
+                jANotZero   0x001ebe    program     static C:\MCC18\src\traditional\math\divFP.asm
+              jAandWsetup   0x001dec    program     static C:\MCC18\src\traditional\math\addFP.asm
+                  jAisNeg   0x002142    program     static C:\MCC18\src\traditional\math\compFP.asm
+                 jAltBexp   0x001dda    program     static C:\MCC18\src\traditional\math\addFP.asm
+                jBANotInf   0x001d7e    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jBNotInf   0x001d96    program     static C:\MCC18\src\traditional\math\addFP.asm
+              jBothFinite   0x001f5e    program     static C:\MCC18\src\traditional\math\mulFP.asm
+             jBothNotZero   0x0020e4    program     static C:\MCC18\src\traditional\math\compFP.asm
+             jBothNotZero   0x001f6a    program     static C:\MCC18\src\traditional\math\mulFP.asm
+            jDifOrPosSign   0x001daa    program     static C:\MCC18\src\traditional\math\addFP.asm
+                      jEQ   0x002100    program     static C:\MCC18\src\traditional\math\compFP.asm
+                     jEnd   0x002bd0    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                     jEnd   0x002c08    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                    jExch   0x00210c    program     static C:\MCC18\src\traditional\math\compFP.asm
+                    jExit   0x0020b2    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                   jExpEQ   0x002152    program     static C:\MCC18\src\traditional\math\compFP.asm
+                   jFinal   0x002136    program     static C:\MCC18\src\traditional\math\compFP.asm
+               jFinalSign   0x001e84    program     static C:\MCC18\src\traditional\math\addFP.asm
+                jHaveZero   0x001f66    program     static C:\MCC18\src\traditional\math\mulFP.asm
+                    jLoop   0x002b9c    program     static C:\MCC18\src\traditional\stdclib\strcpy.asm
+                    jLoop   0x00209a    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jLoop   0x002bf0    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x002b5a    program     static C:\MCC18\src\traditional\stdclib\strcat.asm
+                    jLoop   0x001ee6    program     static C:\MCC18\src\traditional\math\divFP.asm
+                    jLoop   0x002bc6    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                jLoopExit   0x0020a8    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                   jMatch   0x002f3c    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+                     jMax   0x002076    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x002080    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jMaxPos   0x00207a    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                      jNE   0x002104    program     static C:\MCC18\src\traditional\math\compFP.asm
+                    jNext   0x001f0c    program     static C:\MCC18\src\traditional\math\divFP.asm
+                jNoAdjust   0x001f0a    program     static C:\MCC18\src\traditional\math\divFP.asm
+                  jNoExch   0x00212c    program     static C:\MCC18\src\traditional\math\compFP.asm
+                 jNoMatch   0x002f3e    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+             jNotBothZero   0x001dae    program     static C:\MCC18\src\traditional\math\addFP.asm
+                  jNotInf   0x00208a    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                jNullLoop   0x002b54    program     static C:\MCC18\src\traditional\stdclib\strcat.asm
+                  jPkLoop   0x0021b6    program     static C:\MCC18\src\traditional\math\packFP.asm
+             jPkRoundDone   0x002200    program     static C:\MCC18\src\traditional\math\packFP.asm
+               jPkRoundIt   0x0021e8    program     static C:\MCC18\src\traditional\math\packFP.asm
+             jPkShiftDone   0x0021d2    program     static C:\MCC18\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x00218c    program     static C:\MCC18\src\traditional\math\packFP.asm
+                  jRotate   0x00215e    program     static C:\MCC18\src\traditional\math\compFP.asm
+                   jShift   0x002148    program     static C:\MCC18\src\traditional\math\compFP.asm
+               jShiftDone   0x001e44    program     static C:\MCC18\src\traditional\math\addFP.asm
+               jShiftLoop   0x001e36    program     static C:\MCC18\src\traditional\math\addFP.asm
+                jSignDone   0x001e74    program     static C:\MCC18\src\traditional\math\addFP.asm
+              jSignedZero   0x001eb4    program     static C:\MCC18\src\traditional\math\divFP.asm
+                 jSignsEQ   0x0020e8    program     static C:\MCC18\src\traditional\math\compFP.asm
+                  jUnpkA1   0x00222a    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x002242    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x002238    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x00225a    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x002272    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x002268    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x00224c    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jWNotNeg   0x001e30    program     static C:\MCC18\src\traditional\math\addFP.asm
+                    jZero   0x002086    program     static C:\MCC18\src\traditional\math\castFP08.asm
+               jZero1and2   0x002190    program     static C:\MCC18\src\traditional\math\packFP.asm
+                  lcd_cmd   0x00282a    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                 lcd_data   0x00285e    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                 lcd_goto   0x00292a    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                lcd_nputs   0x0028da    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                 lcd_puts   0x00289e    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                     loop   0x002ee2    program     static                          
+                     loop   0x002f90    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                     loop   0x002f74    program     static                          
+                     main   0x002f9c    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\main.c
+         pullCharFromFifo   0x001b80    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+         pushCharIntoFifo   0x001a24    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+                     putc   0x002d66    program     extern C:\MCC18\src\traditional\stdclib\putc.c
+                 s_digits   0x002fb0    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
             s_put_n_chars   0x000028    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-   sendAgentAdrSerialPort   0x000e2a    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-       sendCharSerialPort   0x000db6    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-sendDataLinkFrameSerialPort   0x000c4a    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-sendFrameHeaderSerialPort   0x000dd0    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-  sendIntroductionMessage   0x0014c0    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
-  sendPresentationMessage   0x00164c    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
-   sendShortIntSerialPort   0x000de2    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-sendWhoAreMyNeighboursMessage   0x001544    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
-              serveurUART   0x0021f4    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serialLinkInterruptHandler.c
-                  sprintf   0x002aa4    program     extern C:\MCC18\src\traditional\stdclib\sprintf.c
-                   strcpy   0x002b50    program     extern C:\MCC18\src\traditional\stdclib\strcpy.asm
-                   strlen   0x002b92    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x002bae    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                     test   0x002c12    program     static                          
+   sendAgentAdrSerialPort   0x0016c8    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+       sendCharSerialPort   0x001654    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+sendDataLinkFrameSerialPort   0x0014e8    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+sendFrameHeaderSerialPort   0x00166e    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+  sendIntroductionMessage   0x000c4a    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
+  sendPresentationMessage   0x000dd6    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
+   sendShortIntSerialPort   0x001680    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+sendWhoAreMyNeighboursMessage   0x000cce    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
+              serveurUART   0x00227c    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serialLinkInterruptHandler.c
+                  sprintf   0x002c1c    program     extern C:\MCC18\src\traditional\stdclib\sprintf.c
+                   strcat   0x002b2c    program     extern C:\MCC18\src\traditional\stdclib\strcat.asm
+                   strcpy   0x002b74    program     extern C:\MCC18\src\traditional\stdclib\strcpy.asm
+                   strlen   0x002bb6    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x002bd2    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                     test   0x002ce2    program     static                          
                  vfprintf   0x000054    program     extern C:\MCC18\src\traditional\stdclib\vfprintf.c
                    ADCON0   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F458.asm
                ADCON0bits   0x000fc2       data     extern C:\MCC18\src\traditional\proc\p18F458.asm
@@ -816,8 +821,8 @@ sendWhoAreMyNeighboursMessage   0x001544    program     extern F:\Dede\job\essai
                   __pa_19   0x000ace    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_20   0x000ade    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_21   0x000aee    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-                  __pa_22   0x000afe    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
               __tmplbl_42   0x000afe    program     static                          
+                  __pa_22   0x000afe    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_23   0x000b0a    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_24   0x000b18    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_25   0x000b20    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
@@ -842,152 +847,156 @@ sendWhoAreMyNeighboursMessage   0x001544    program     extern F:\Dede\job\essai
                   __pa_44   0x000c2a    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_45   0x000c34    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
                   __pa_46   0x000c40    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-sendDataLinkFrameSerialPort   0x000c4a    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-       sendCharSerialPort   0x000db6    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-sendFrameHeaderSerialPort   0x000dd0    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-   sendShortIntSerialPort   0x000de2    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-   sendAgentAdrSerialPort   0x000e2a    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-calculeBAudRateGenerateur   0x000eea    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-         pushCharIntoFifo   0x001186    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-         pullCharFromFifo   0x0012e2    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-                 FIFOinit   0x0013ec    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
-  sendIntroductionMessage   0x0014c0    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
-sendWhoAreMyNeighboursMessage   0x001544    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
-  sendPresentationMessage   0x00164c    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
-             frameProceed   0x001754    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
-                    FPS32   0x001cd6    program     extern C:\MCC18\src\traditional\math\addFP.asm
-                    FPA32   0x001cd8    program     extern C:\MCC18\src\traditional\math\addFP.asm
-                jBANotInf   0x001cf6    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jANotInf   0x001d00    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jBNotInf   0x001d0e    program     static C:\MCC18\src\traditional\math\addFP.asm
-            jDifOrPosSign   0x001d22    program     static C:\MCC18\src\traditional\math\addFP.asm
-             jNotBothZero   0x001d26    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jAltBexp   0x001d52    program     static C:\MCC18\src\traditional\math\addFP.asm
-              jAandWsetup   0x001d64    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jANotNeg   0x001d94    program     static C:\MCC18\src\traditional\math\addFP.asm
-                 jWNotNeg   0x001da8    program     static C:\MCC18\src\traditional\math\addFP.asm
-               jShiftLoop   0x001dae    program     static C:\MCC18\src\traditional\math\addFP.asm
-               jShiftDone   0x001dbc    program     static C:\MCC18\src\traditional\math\addFP.asm
-                jSignDone   0x001dec    program     static C:\MCC18\src\traditional\math\addFP.asm
-               jFinalSign   0x001dfc    program     static C:\MCC18\src\traditional\math\addFP.asm
-                    FPD32   0x001e04    program     extern C:\MCC18\src\traditional\math\divFP.asm
-                 jANotInf   0x001e22    program     static C:\MCC18\src\traditional\math\divFP.asm
-              jSignedZero   0x001e2c    program     static C:\MCC18\src\traditional\math\divFP.asm
-                jANotZero   0x001e36    program     static C:\MCC18\src\traditional\math\divFP.asm
-                    jLoop   0x001e5e    program     static C:\MCC18\src\traditional\math\divFP.asm
-                jNoAdjust   0x001e82    program     static C:\MCC18\src\traditional\math\divFP.asm
-                    jNext   0x001e84    program     static C:\MCC18\src\traditional\math\divFP.asm
-                    FPM32   0x001eaa    program     extern C:\MCC18\src\traditional\math\mulFP.asm
-                 jANotInf   0x001ec8    program     static C:\MCC18\src\traditional\math\mulFP.asm
-              jBothFinite   0x001ed6    program     static C:\MCC18\src\traditional\math\mulFP.asm
-                jHaveZero   0x001ede    program     static C:\MCC18\src\traditional\math\mulFP.asm
-             jBothNotZero   0x001ee2    program     static C:\MCC18\src\traditional\math\mulFP.asm
-                 FXM1616S   0x001f84    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
-               TSIGN1616A   0x001fd0    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
-                  INT3208   0x001fde    program     extern C:\MCC18\src\traditional\math\castFP08.asm
-                     jMax   0x001fee    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  jMaxPos   0x001ff2    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  jMaxNeg   0x001ff8    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                    jZero   0x001ffe    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  jNotInf   0x002002    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                    jLoop   0x002012    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                jLoopExit   0x002020    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                    jExit   0x00202a    program     static C:\MCC18\src\traditional\math\castFP08.asm
-                  TAGTB32   0x00202c    program     extern C:\MCC18\src\traditional\math\gtFP.asm
-              __FpCompare   0x00203e    program     extern C:\MCC18\src\traditional\math\compFP.asm
-             jBothNotZero   0x00205c    program     static C:\MCC18\src\traditional\math\compFP.asm
-                 jSignsEQ   0x002060    program     static C:\MCC18\src\traditional\math\compFP.asm
-                      jEQ   0x002078    program     static C:\MCC18\src\traditional\math\compFP.asm
-                      jNE   0x00207c    program     static C:\MCC18\src\traditional\math\compFP.asm
-                    jExch   0x002084    program     static C:\MCC18\src\traditional\math\compFP.asm
-                  jNoExch   0x0020a4    program     static C:\MCC18\src\traditional\math\compFP.asm
-                   jFinal   0x0020ae    program     static C:\MCC18\src\traditional\math\compFP.asm
-                  jAisNeg   0x0020ba    program     static C:\MCC18\src\traditional\math\compFP.asm
-                   jShift   0x0020c0    program     static C:\MCC18\src\traditional\math\compFP.asm
-                   jExpEQ   0x0020ca    program     static C:\MCC18\src\traditional\math\compFP.asm
-                  jRotate   0x0020d6    program     static C:\MCC18\src\traditional\math\compFP.asm
-            __FpReturnNaN   0x0020e8    program     extern C:\MCC18\src\traditional\math\packFP.asm
-                 __FpExit   0x0020f4    program     extern C:\MCC18\src\traditional\math\packFP.asm
-        __FpReturnSignInf   0x0020f6    program     extern C:\MCC18\src\traditional\math\packFP.asm
-         __FpReturnNegInf   0x0020fa    program     extern C:\MCC18\src\traditional\math\packFP.asm
-         __FpReturnPosInf   0x002100    program     extern C:\MCC18\src\traditional\math\packFP.asm
-           jReturnPosInf0   0x002104    program     static C:\MCC18\src\traditional\math\packFP.asm
-               jZero1and2   0x002108    program     static C:\MCC18\src\traditional\math\packFP.asm
-       __FpReturnSignZero   0x00210e    program     extern C:\MCC18\src\traditional\math\packFP.asm
-        __FpReturnNegZero   0x002112    program     extern C:\MCC18\src\traditional\math\packFP.asm
-        __FpReturnPosZero   0x00211a    program     extern C:\MCC18\src\traditional\math\packFP.asm
-                 __FpPack   0x002120    program     extern C:\MCC18\src\traditional\math\packFP.asm
-                  jPkLoop   0x00212e    program     static C:\MCC18\src\traditional\math\packFP.asm
-             jPkShiftDone   0x00214a    program     static C:\MCC18\src\traditional\math\packFP.asm
-               jPkRoundIt   0x002160    program     static C:\MCC18\src\traditional\math\packFP.asm
-              __FpReturnW   0x002178    program     extern C:\MCC18\src\traditional\math\packFP.asm
-             jPkRoundDone   0x002178    program     static C:\MCC18\src\traditional\math\packFP.asm
-              __FpUnPackA   0x002198    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkA1   0x0021a2    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jUnpkANZ   0x0021b0    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkA2   0x0021ba    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jUnpkNaN   0x0021c4    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-              __FpUnPackB   0x0021c8    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkB1   0x0021d2    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                 jUnpkBNZ   0x0021e0    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-                  jUnpkB2   0x0021ea    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
-              serveurUART   0x0021f4    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serialLinkInterruptHandler.c
-               afficheLCD   0x0025dc    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                 DelayMUs   0x00273c    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-        ___while_lbl00011   0x002744    program     static                          
-       ___return_lbl00010   0x002756    program     static                          
-        ___while_lbl00012   0x002756    program     static                          
-                  DelayMs   0x00275e    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-               LCD_STROBE   0x002798    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-       ___return_lbl00018   0x0027a0    program     static                          
-                  lcd_cmd   0x0027a2    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                 lcd_data   0x0027d6    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                 lcd_puts   0x002816    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                lcd_nputs   0x002852    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                 clearLCD   0x002898    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                 lcd_goto   0x0028a2    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                  initLCD   0x0028dc    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
-                     init   0x00294e    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\init.c
-                  sprintf   0x002aa4    program     extern C:\MCC18\src\traditional\stdclib\sprintf.c
-                   strcpy   0x002b50    program     extern C:\MCC18\src\traditional\stdclib\strcpy.asm
-                    jLoop   0x002b78    program     static C:\MCC18\src\traditional\stdclib\strcpy.asm
-                   strlen   0x002b92    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
-                    jLoop   0x002ba2    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
-                     jEnd   0x002bac    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
-                strlenpgm   0x002bae    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                    jLoop   0x002bcc    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                   _2jEnd   0x002be2    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                     jEnd   0x002be4    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
-                _do_cinit   0x002bf8    program     extern C:\MCC18\src\traditional\startup\c018i.c
-                     test   0x002c12    program     static                          
-                copy_loop   0x002c6a    program     static                          
-            copy_one_byte   0x002c70    program     static                          
-             done_copying   0x002c7e    program     static                          
-                     done   0x002c94    program     static                          
-       ___return_lbl00002   0x002c94    program     static                          
-                     putc   0x002c96    program     extern C:\MCC18\src\traditional\stdclib\putc.c
-                OpenUSART   0x002d1a    program     extern C:\MCC18\src\pmc_common\USART\uopen.c
-                  FXM3232   0x002d94    program     extern C:\MCC18\src\traditional\math\fxm3232.c
-       ___return_lbl00000   0x002e02    program     static                          
-                 FXD3232U   0x002e04    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
-                     loop   0x002e12    program     static                          
-                   _false   0x002e46    program     static                          
-       ___return_lbl00000   0x002e4a    program     static                          
-                  isdigit   0x002e4c    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
-                   jMatch   0x002e6c    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
-                 jNoMatch   0x002e6e    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
-                 _startup   0x002e70    program     extern C:\MCC18\src\traditional\startup\c018i.c
-                     loop   0x002e80    program     static                          
-       ___return_lbl00001   0x002e8a    program     static                          
-              _usart_putc   0x002e8c    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
-                     loop   0x002e9c    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
-               __string_2   0x002ea8    program     static F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\init.c
-               __string_0   0x002eb5    program     static F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
-                     main   0x002ec2    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\main.c
-                 s_digits   0x002ed6    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
-            __zero_memory   0x002ee8    program     extern C:\MCC18\src\traditional\proc\p18F458.asm
-               clear_loop   0x002eee    program     static C:\MCC18\src\traditional\proc\p18F458.asm
-                   __init   0x002ef6    program     extern C:\MCC18\src\traditional\stdclib\__init.c
+  sendIntroductionMessage   0x000c4a    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
+sendWhoAreMyNeighboursMessage   0x000cce    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
+  sendPresentationMessage   0x000dd6    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
+             frameProceed   0x000ede    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
+sendDataLinkFrameSerialPort   0x0014e8    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+       sendCharSerialPort   0x001654    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+sendFrameHeaderSerialPort   0x00166e    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+   sendShortIntSerialPort   0x001680    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+   sendAgentAdrSerialPort   0x0016c8    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+calculeBAudRateGenerateur   0x001788    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+         pushCharIntoFifo   0x001a24    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+         pullCharFromFifo   0x001b80    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+                 FIFOinit   0x001c8a    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serial.c
+                    FPS32   0x001d5e    program     extern C:\MCC18\src\traditional\math\addFP.asm
+                    FPA32   0x001d60    program     extern C:\MCC18\src\traditional\math\addFP.asm
+                jBANotInf   0x001d7e    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jANotInf   0x001d88    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jBNotInf   0x001d96    program     static C:\MCC18\src\traditional\math\addFP.asm
+            jDifOrPosSign   0x001daa    program     static C:\MCC18\src\traditional\math\addFP.asm
+             jNotBothZero   0x001dae    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jAltBexp   0x001dda    program     static C:\MCC18\src\traditional\math\addFP.asm
+              jAandWsetup   0x001dec    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jANotNeg   0x001e1c    program     static C:\MCC18\src\traditional\math\addFP.asm
+                 jWNotNeg   0x001e30    program     static C:\MCC18\src\traditional\math\addFP.asm
+               jShiftLoop   0x001e36    program     static C:\MCC18\src\traditional\math\addFP.asm
+               jShiftDone   0x001e44    program     static C:\MCC18\src\traditional\math\addFP.asm
+                jSignDone   0x001e74    program     static C:\MCC18\src\traditional\math\addFP.asm
+               jFinalSign   0x001e84    program     static C:\MCC18\src\traditional\math\addFP.asm
+                    FPD32   0x001e8c    program     extern C:\MCC18\src\traditional\math\divFP.asm
+                 jANotInf   0x001eaa    program     static C:\MCC18\src\traditional\math\divFP.asm
+              jSignedZero   0x001eb4    program     static C:\MCC18\src\traditional\math\divFP.asm
+                jANotZero   0x001ebe    program     static C:\MCC18\src\traditional\math\divFP.asm
+                    jLoop   0x001ee6    program     static C:\MCC18\src\traditional\math\divFP.asm
+                jNoAdjust   0x001f0a    program     static C:\MCC18\src\traditional\math\divFP.asm
+                    jNext   0x001f0c    program     static C:\MCC18\src\traditional\math\divFP.asm
+                    FPM32   0x001f32    program     extern C:\MCC18\src\traditional\math\mulFP.asm
+                 jANotInf   0x001f50    program     static C:\MCC18\src\traditional\math\mulFP.asm
+              jBothFinite   0x001f5e    program     static C:\MCC18\src\traditional\math\mulFP.asm
+                jHaveZero   0x001f66    program     static C:\MCC18\src\traditional\math\mulFP.asm
+             jBothNotZero   0x001f6a    program     static C:\MCC18\src\traditional\math\mulFP.asm
+                 FXM1616S   0x00200c    program     extern C:\MCC18\src\traditional\math\fxm1616s.asm
+               TSIGN1616A   0x002058    program     static C:\MCC18\src\traditional\math\fxm1616s.asm
+                  INT3208   0x002066    program     extern C:\MCC18\src\traditional\math\castFP08.asm
+                     jMax   0x002076    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jMaxPos   0x00207a    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jMaxNeg   0x002080    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jZero   0x002086    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  jNotInf   0x00208a    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jLoop   0x00209a    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                jLoopExit   0x0020a8    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                    jExit   0x0020b2    program     static C:\MCC18\src\traditional\math\castFP08.asm
+                  TAGTB32   0x0020b4    program     extern C:\MCC18\src\traditional\math\gtFP.asm
+              __FpCompare   0x0020c6    program     extern C:\MCC18\src\traditional\math\compFP.asm
+             jBothNotZero   0x0020e4    program     static C:\MCC18\src\traditional\math\compFP.asm
+                 jSignsEQ   0x0020e8    program     static C:\MCC18\src\traditional\math\compFP.asm
+                      jEQ   0x002100    program     static C:\MCC18\src\traditional\math\compFP.asm
+                      jNE   0x002104    program     static C:\MCC18\src\traditional\math\compFP.asm
+                    jExch   0x00210c    program     static C:\MCC18\src\traditional\math\compFP.asm
+                  jNoExch   0x00212c    program     static C:\MCC18\src\traditional\math\compFP.asm
+                   jFinal   0x002136    program     static C:\MCC18\src\traditional\math\compFP.asm
+                  jAisNeg   0x002142    program     static C:\MCC18\src\traditional\math\compFP.asm
+                   jShift   0x002148    program     static C:\MCC18\src\traditional\math\compFP.asm
+                   jExpEQ   0x002152    program     static C:\MCC18\src\traditional\math\compFP.asm
+                  jRotate   0x00215e    program     static C:\MCC18\src\traditional\math\compFP.asm
+            __FpReturnNaN   0x002170    program     extern C:\MCC18\src\traditional\math\packFP.asm
+                 __FpExit   0x00217c    program     extern C:\MCC18\src\traditional\math\packFP.asm
+        __FpReturnSignInf   0x00217e    program     extern C:\MCC18\src\traditional\math\packFP.asm
+         __FpReturnNegInf   0x002182    program     extern C:\MCC18\src\traditional\math\packFP.asm
+         __FpReturnPosInf   0x002188    program     extern C:\MCC18\src\traditional\math\packFP.asm
+           jReturnPosInf0   0x00218c    program     static C:\MCC18\src\traditional\math\packFP.asm
+               jZero1and2   0x002190    program     static C:\MCC18\src\traditional\math\packFP.asm
+       __FpReturnSignZero   0x002196    program     extern C:\MCC18\src\traditional\math\packFP.asm
+        __FpReturnNegZero   0x00219a    program     extern C:\MCC18\src\traditional\math\packFP.asm
+        __FpReturnPosZero   0x0021a2    program     extern C:\MCC18\src\traditional\math\packFP.asm
+                 __FpPack   0x0021a8    program     extern C:\MCC18\src\traditional\math\packFP.asm
+                  jPkLoop   0x0021b6    program     static C:\MCC18\src\traditional\math\packFP.asm
+             jPkShiftDone   0x0021d2    program     static C:\MCC18\src\traditional\math\packFP.asm
+               jPkRoundIt   0x0021e8    program     static C:\MCC18\src\traditional\math\packFP.asm
+             jPkRoundDone   0x002200    program     static C:\MCC18\src\traditional\math\packFP.asm
+              __FpReturnW   0x002200    program     extern C:\MCC18\src\traditional\math\packFP.asm
+              __FpUnPackA   0x002220    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkA1   0x00222a    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkANZ   0x002238    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkA2   0x002242    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkNaN   0x00224c    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+              __FpUnPackB   0x002250    program     extern C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkB1   0x00225a    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                 jUnpkBNZ   0x002268    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+                  jUnpkB2   0x002272    program     static C:\MCC18\src\traditional\math\UnpackFP.asm
+              serveurUART   0x00227c    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\serialLinkInterruptHandler.c
+               afficheLCD   0x002664    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                 DelayMUs   0x0027c4    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+        ___while_lbl00011   0x0027cc    program     static                          
+       ___return_lbl00010   0x0027de    program     static                          
+        ___while_lbl00012   0x0027de    program     static                          
+                  DelayMs   0x0027e6    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+               LCD_STROBE   0x002820    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+       ___return_lbl00018   0x002828    program     static                          
+                  lcd_cmd   0x00282a    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                 lcd_data   0x00285e    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                 lcd_puts   0x00289e    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                lcd_nputs   0x0028da    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                 clearLCD   0x002920    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                 lcd_goto   0x00292a    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                  initLCD   0x002964    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\lcdTools.c
+                     init   0x0029d6    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\init.c
+                   strcat   0x002b2c    program     extern C:\MCC18\src\traditional\stdclib\strcat.asm
+                jNullLoop   0x002b54    program     static C:\MCC18\src\traditional\stdclib\strcat.asm
+                    jLoop   0x002b5a    program     static C:\MCC18\src\traditional\stdclib\strcat.asm
+                   strcpy   0x002b74    program     extern C:\MCC18\src\traditional\stdclib\strcpy.asm
+                    jLoop   0x002b9c    program     static C:\MCC18\src\traditional\stdclib\strcpy.asm
+                   strlen   0x002bb6    program     extern C:\MCC18\src\traditional\stdclib\strlen.asm
+                    jLoop   0x002bc6    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                     jEnd   0x002bd0    program     static C:\MCC18\src\traditional\stdclib\strlen.asm
+                strlenpgm   0x002bd2    program     extern C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                    jLoop   0x002bf0    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                   _2jEnd   0x002c06    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                     jEnd   0x002c08    program     static C:\MCC18\src\traditional\stdclib\slenpgm.asm
+                  sprintf   0x002c1c    program     extern C:\MCC18\src\traditional\stdclib\sprintf.c
+                _do_cinit   0x002cc8    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     test   0x002ce2    program     static                          
+                copy_loop   0x002d3a    program     static                          
+            copy_one_byte   0x002d40    program     static                          
+             done_copying   0x002d4e    program     static                          
+                     done   0x002d64    program     static                          
+       ___return_lbl00002   0x002d64    program     static                          
+                     putc   0x002d66    program     extern C:\MCC18\src\traditional\stdclib\putc.c
+                OpenUSART   0x002dea    program     extern C:\MCC18\src\pmc_common\USART\uopen.c
+                  FXM3232   0x002e64    program     extern C:\MCC18\src\traditional\math\fxm3232.c
+       ___return_lbl00000   0x002ed2    program     static                          
+                 FXD3232U   0x002ed4    program     extern C:\MCC18\src\traditional\math\fxd3232u.c
+                     loop   0x002ee2    program     static                          
+                   _false   0x002f16    program     static                          
+       ___return_lbl00000   0x002f1a    program     static                          
+                  isdigit   0x002f1c    program     extern C:\MCC18\src\traditional\stdclib\isdigit.asm
+                   jMatch   0x002f3c    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+                 jNoMatch   0x002f3e    program     static C:\MCC18\src\traditional\stdclib\isdigit.asm
+               __string_2   0x002f40    program     static F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\init.c
+               __string_1   0x002f4d    program     static F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
+               __string_0   0x002f56    program     static F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\MWACProtocol.c
+                 _startup   0x002f64    program     extern C:\MCC18\src\traditional\startup\c018i.c
+                     loop   0x002f74    program     static                          
+       ___return_lbl00001   0x002f7e    program     static                          
+              _usart_putc   0x002f80    program     extern C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                     loop   0x002f90    program     static C:\MCC18\src\pmc_common\USART\_usartpc.asm
+                     main   0x002f9c    program     extern F:\Dede\job\essaiPIC\EnCours\GitHub\MWACPIC\main.c
+                 s_digits   0x002fb0    program     static C:\MCC18\src\traditional\stdclib\vfprintf.c
+            __zero_memory   0x002fc2    program     extern C:\MCC18\src\traditional\proc\p18F458.asm
+               clear_loop   0x002fc8    program     static C:\MCC18\src\traditional\proc\p18F458.asm
+                   __init   0x002fd0    program     extern C:\MCC18\src\traditional\stdclib\__init.c
                      SIGN   0x000000       data     extern C:\MCC18\src\traditional\math\cmath18.asm
             __FPFLAGSbits   0x000001       data     extern C:\MCC18\src\traditional\math\cmath18.asm
                 __FPFLAGS   0x000001       data     extern C:\MCC18\src\traditional\math\cmath18.asm

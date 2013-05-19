@@ -79,7 +79,8 @@ void frameProceed(void)
 	unsigned long int appSenderAddr=0,groupAd;
 	unsigned char appPDUType;
 	unsigned char appPDUMessageSize=0;  // size of the message in applicative PDU 
-	char neighbFound=0,posNeighb=0,nbGroup;
+	unsigned char neighbFound=0,posNeighb=0,nbGroup;
+	char messRec[20];
 	if (gl_byteFifo.framesCnt != 0)
 	{ // there is a frame in he FIFO
 	  // get sender applicative layer address from the FIFO
@@ -92,7 +93,6 @@ void frameProceed(void)
       switch (appPDUType){
 	  case PRESENTATION :
 	  case WHO_ARE_MY_NEIGHBOURS:
-	  case DATA :
 		// update neighbours array
 		for (i=0;i<gl_me.nbNeighbours;i++)
 		{
@@ -123,17 +123,9 @@ void frameProceed(void)
 					// we record until MAX_NB_GROUPS groups per neighbour
 					gl_me.myNeighbours[posNeighb].agentGroupId[i]=groupAd;
 				}
-		}
-		else
-		{  // no place in neighbours list  we must pull the end of frame from the FIFO
-			for (i=0;i<appPDUMessageSize;i++)
-				pullCharFromFifo(&gl_byteFifo);
-	  
-        }
 			// if the neibghbour is  a representative agent, this agent becomes simple member and  his group is up_dated	
-        			
-		if (gl_me.myNeighbours[posNeighb].agentRole==REPRESENTATIVE)
-		{
+			if (gl_me.myNeighbours[posNeighb].agentRole==REPRESENTATIVE)
+			{
 			gl_me.myRole=SIMPLE_MEMBER;	
 			gl_me.myGroup=gl_me.myNeighbours[posNeighb].agentGroupId[0]; // this agent gets the group of the representative agent 
 			sprintf (gl_ligne1,"Ag#%ld S %ld",gl_me.myId,gl_me.myGroup);
@@ -141,14 +133,35 @@ void frameProceed(void)
 			afficheLCD(1,1,gl_blancs);
 			afficheLCD(1,1,gl_ligne1);
 			#endif	
+			}
+			else;
+	
 		}
-		
-		INTCONbits.GIEH = 0; // interrupts masked
-        gl_byteFifo.framesCnt--;  // one frame less
-	    INTCONbits.GIEH = 1; // interrupts unmasked
-		if(appPDUType== WHO_ARE_MY_NEIGHBOURS)
+		else
+		{  // no place in neighbours list  we must pull the end of frame from the FIFO
+			for (i=0;i<appPDUMessageSize;i++)
+				pullCharFromFifo(&gl_byteFifo);
+	  
+        }
+	    break;
+	case DATA :	
+		for(i=0;i<appPDUMessageSize;i++)
+			messRec[i]=pullCharFromFifo(&gl_byteFifo);
+		sprintf (gl_ligne2,"MAg#%ld ",appSenderAddr);
+		strcat(gl_ligne2,messRec);
+		#ifdef LCD_DISPLAY 
+		afficheLCD(1,2,gl_blancs);
+		afficheLCD(1,2,gl_ligne2);
+		#endif 
+		break;
+			
+	}
+	INTCONbits.GIEH = 0; // interrupts masked
+    gl_byteFifo.framesCnt--;  // one frame less
+	INTCONbits.GIEH = 1; // interrupts unmasked
+	if(appPDUType== WHO_ARE_MY_NEIGHBOURS)
 			sendPresentationMessage();
-		
-}
+
+
 }
 }

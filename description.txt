@@ -1,0 +1,13 @@
+Version 1.7
+Fonctionnalités implantées:
+Au démarrage, envoie une trame de présentation suivie d'une trame de découverte des voisins.
+Réagit apparemment correctement aux trames
+- de présentation  (éventuellement avec changement de groupe si issue d'un représentant)
+- de recherche de voisins par émission d'une trame de présentation.
+Dans ces deux premiers cas, la table des voisins est enrichies  (limité à 10 avce 3 groupes par agent)
+- de data par affichage sur LCD du message et de l'envoyeur
+
+Les versions 1.5 et 1.6 sont à abandonner car buggées.
+LA taille de la FIFO entre le serveur de réception et le programme principal de traitement est limité à 200. En acs de débordement 
+apparaissant au milieu d'une trame, il y aura vraisemblablement un dysfonctionnement. Pb à fixer plus tard. 
+La version suivant devrait implanter l'envoi d'un message de température sur appui de bouton. 
