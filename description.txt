@@ -1,11 +1,23 @@
+Version 1.9.2 
+Bug de la trame de donnée corrigé : au niveau data link, les données doivent être envoyées au représentant de l'agent et
+non pas à son destinataire. Par contre, au niveau PDU application , c'est bien l'adresse de l'agent destinataire qui apparait.
+OK fonctionne.
+
+TODO: il y a potentiellement un problème en cas de débordement de fifo si le débordement apparait au milieu d'une trame  car dans
+      ce cas la fonction frameProceed prendra des données erronées (en effet, contrairement au serveur de réception, il n'y
+      a pas dans la lecture de la fifo, de resynchronisation en début de trame. Tout est basé sur la longueur des données et c'est donc
+      très sensible aux erreurs. La solution serait de mettre un marqueur de début de trame dans la FIFO. Il faut aussi avoir un retour 
+      de la fonction pull pour savoir si on lit dans une fifo vide . Retravailler la dessus pour rendre le système plus fiable.
+
+
 Version 1.9.1 
-Mêmes fonctionnalités que v1_8 mais la pris de température n'est plus simulée mais mesurée sur le capteur TC74 de la carte.
+Mêmes fonctionnalités que v1_8 mais la prise de température n'est plus simulée mais mesurée sur le capteur TC74 de la carte.
 Par ailleurs, pour des pb de compatibilité avec MPLABX , la configuration des bits de conf est faite dans le code .
 OK  fonctionne bien 
 
 
 Version 1.8
-On rajoute aux fonctionanlités précédentes:
+On rajoute aux fonctionnalités précédentes:
 - émission d'une trame DATA de température à chaque appui sur le bouton S2. Pour l'instant, la mesure de température est simulée
   par une chaine de caractères "22.5 °C"  qui n'évolue pas  
 Version 1.7

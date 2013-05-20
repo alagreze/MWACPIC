@@ -177,7 +177,7 @@ void getTempeAsString(char *tempeString, unsigned char addrI2cSensor)
   else 
   {
 	ftoaFaitMaison(tempe,tempeString);
-	sprintf(tempeString,"%s °C",tempeString);
+	sprintf(tempeString,"%s°C",tempeString);
   }
  }
   

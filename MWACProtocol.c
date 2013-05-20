@@ -34,7 +34,7 @@ void sendDataMessage(unsigned long int receiveAg, char *message)
 	appPDU.appReceiverId=(unsigned long int)receiveAg;
 	appPDU.type=DATA;  // message type
     strcpy(appPDU.message,message); // copy message into appPDU message
-	sendDataLinkFrameSerialPort(gl_me.myId , (unsigned long int)receiveAg, &appPDU);
+	sendDataLinkFrameSerialPort(gl_me.myId ,gl_me.myGroup, &appPDU);
 	
 }
 void sendWhoAreMyNeighboursMessage(void)
