@@ -11,7 +11,7 @@
 #include <string.h>
 #include <stdio.h>
 #include "LCDTools.h"
-
+static char gl_frameColor[]={01,0xFF,00,0x9,0xF0,04,00,0xFF,00,0xFF,00,0xFF,00,03,0xF7,02,0xFF} ;
 void sendIntroductionMessage(void)
 {
 	appliPDU_T appPDU; // for preparing appli PDU
@@ -143,6 +143,7 @@ void frameProceed(void)
 			gl_me.myRole=SIMPLE_MEMBER;	
 			gl_me.myGroup=gl_me.myNeighbours[posNeighb].agentGroupId[0]; // this agent gets the group of the representative agent 
 			sprintf (gl_ligne1,"Ag#%ld S %ld",gl_me.myId,gl_me.myGroup);
+			colorViewModificationForSimpleMemberSystemFrameSend();
 			#ifdef LCD_DISPLAY 
 			afficheLCD(1,1,gl_blancs);
 			afficheLCD(1,1,gl_ligne1);
@@ -178,4 +179,15 @@ void frameProceed(void)
 
 
 }
+}
+
+// ********************************************************
+// **  send frame for coloration for a simple member agent
+// *********************************************************
+
+void colorViewModificationForSimpleMemberSystemFrameSend (void)
+{
+  int i;
+  for (i=0;i<COLORATION_SIMPLE_MEMBER_FRAME_SIZE;i++)
+		sendCharSerialPort(gl_frameColor[i]);
 }

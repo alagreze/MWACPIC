@@ -31,6 +31,7 @@
 #define INTRODUCTION_PDU_MESSAGE_SIZE  0 
 #define WHO_ARE_MY_NEIGHBOURS_PDU_MESSAGE_SIZE_WITHOUTGROUP 1  
 #define WHO_ARE_MY_NEIGHBOURS_PDU_MESSAGE_SIZE_WITH_ONE_GROUP 5
+#define COLORATION_SIMPLE_MEMBER_FRAME_SIZE 17
 //**  MWAC limitations to simplify  ***************
 #define MAX_NB_GROUPS 3  // max number of recorded group for a neighbour in the neighbours list 
 #define MAX_NB_NEIGHBOURS_IN_LIST 5 

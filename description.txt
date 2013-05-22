@@ -1,3 +1,7 @@
+Version 1.10
+On rajoute à la version précédente l'émission d'une trame de coloration lorsque on passe de nothing à simple-member 
+  (découverte d'un voisin représentant). Semble fonctionenr mais pas encore testée avec MASH.
+
 Version 1.9.2 
 Bug de la trame de donnée corrigé : au niveau data link, les données doivent être envoyées au représentant de l'agent et
 non pas à son destinataire. Par contre, au niveau PDU application , c'est bien l'adresse de l'agent destinataire qui apparait.
